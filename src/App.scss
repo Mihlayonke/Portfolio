@@ -1,5 +1,4 @@
 $primary-color: #ffffff;
-
 @import 'animate.css';
 @import '~loaders.css/src/animations/pacman.scss';
 
@@ -28,7 +27,7 @@ $primary-color: #ffffff;
 
 input,
 textarea {
-  font-family: 'Coolvetica', cursive;
+  font-family: cursive;
 }
 
 .loader-hidden { 
