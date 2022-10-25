@@ -6,7 +6,8 @@ import React from 'react';
 const Layout = () => {
     return (
     <div className='App'> 
-    <Sidebar/> 
+        <Sidebar/> 
+        
     <div className='page'>
         <span className='tags top-tags'> 
             &lt; Portfolio &gt;

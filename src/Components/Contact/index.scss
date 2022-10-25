@@ -68,19 +68,24 @@
     float: left;
     animation: fadeIn 2s 2.5s backwards;
     white-space: nowrap;
+    cursor: pointer;
   
     &:hover{
-        background-color: rgb(0, 0, 0);
+      background-color: rgb(0, 0, 0);
         
     }
+
   }
 }
 
-.p{
-    
-    font-family: Helvetica Neue, cursive;
-    font-size: 20px;
-    
+.contact-page{
+  .text-zone{
+    p{
+      font-family: 'Helvetica Neue', cursive; 
+      font-size: 14px;
+      
+    }
+  }
 }
 
 .leaflet-container {

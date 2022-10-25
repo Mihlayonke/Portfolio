@@ -1,13 +1,30 @@
-.error-page {
+.error-page{
+ 
+    .text-area {
+      position: absolute;
+        transform: translateY(-50%);
+        width: 50%;
+        max-height: 90%;
+        left: 10%;
+        top:50%;
+        display: table-cell;
+        max-height: 90%;
+        vertical-align: middle; 
 
-    .h1{
-        position: absolute;
-        font-size: large;
-        left: 50%;
-        top: 50%;
-        bottom: 50%
-        
-        
+        .error{
+            color: rgb(255, 0, 0);
+            font-size: 40px;
+            margin: 0;
+            font-family: 'Helvetica Neue' , cursive;
+            font-weight: 400;
+        }
+
+        .message {
+            color: #fff;
+            font-size: 40px;
+            margin: 0;
+            font-family: 'Helvetica Neue' , cursive;
+            font-weight: 400;
+        }
     }
-    
 }

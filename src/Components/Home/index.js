@@ -10,23 +10,24 @@ const Home = () => {
     // eslint-disable-next-line no-unused-vars
     const [lettersClass, setLetterClass] = useState('text-animate');
 
-    const arrayGreet = ['H', 'i',','];
+    const arrayGreet = ['H', 'e','l','l','o',' 👋'];
     const arrayName = ['I',"'",'m',' ','M', 'i', 'h', 'l', 'a', 'y', 'o', 'n', 'k', 'e', ' ', 'T', 'e', 'm', 'b', 'e', ','];
     const arrayJob = ['I',"'",'m',' ','a',' ','S', 'o', 'f', 't', 'w', 'a', 'r', 'e', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.' ];
     const arrayMore = ['Web Developer ',' / ',' Front-End Developer ', ' / ', ' Back-End Developer']
 
     return (
-        <div className='container home-page'>
+        <>
+             <div className='container home-page'>
             <div className='text-zone'>
                 <h1>
                     
-                    <AnimatedLetters lettersClass={lettersClass} strArray={arrayGreet} idx={10}/> 
+                    <AnimatedLetters lettersClass={lettersClass} strArray={arrayGreet} idx={20}/> 
                     <br/>
-                    
-                    <AnimatedLetters lettersClass={lettersClass} strArray={arrayName} idx={30}/> 
+                    <br/>
+                    <AnimatedLetters lettersClass={lettersClass} strArray={arrayName} idx={35}/> 
                     <br/>
 
-                    <AnimatedLetters lettersClass={lettersClass} strArray={arrayJob} idx={60}/> 
+                    <AnimatedLetters lettersClass={lettersClass} strArray={arrayJob} idx={65}/> 
                     <br/>
                 </h1>
 
@@ -40,9 +41,10 @@ const Home = () => {
             <Logo/>
 
         </div>
+        </>
+       
     )
 
-    
 } 
 
 export default Home;

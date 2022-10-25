@@ -1,26 +1,21 @@
 .logo-container {
     z-index: 0;
-    width: 400px;
-    height: 600px;
-    opacity: 0;
+    width: 45%;
+    height: 70%;
     position: absolute;
-    top: 200px;
-    right: 5%;
-    bottom: 0;
+    top: 10%;
+    right: 0%;
     left: auto;
-    margin: auto;
+    max-height: 80%;
+    display: table-cell;
+    vertical-align: middle;
   
     .solid-logo {
-      position: absolute;
-      top: auto;
-      right: auto;
-      bottom: auto;
-      left: 0;
-      margin: auto;
-      width: 100%;
-      opacity: 0;
+      position:relative;
       transform: rotateZ(0deg) !important;
       z-index: 1;
+      margin: auto;
+      
     }
   }
   

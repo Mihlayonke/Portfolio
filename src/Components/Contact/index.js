@@ -1,6 +1,5 @@
 import {  useState } from 'react'
 import Loader from 'react-loaders'
-
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
@@ -11,10 +10,13 @@ const Contact = () => {
   const form = useRef()
 
   const sendEmail = (e) => {
-    e.preventDefault()
+    e.preventDefault();
+
+    const serviceID = 'service_p5yz2pi';
+    const templateID = 'template_5pvx098';
 
     emailjs
-      .sendForm('gmail', 'template_YeJhZkgb', form.current, 'your-token')
+    .sendForm(serviceID, templateID, form.current,'Am8a-BEPN66EMdum5')
       .then(
         () => {
           alert('Message successfully sent!')
@@ -25,7 +27,7 @@ const Contact = () => {
         }
       )
   }
-
+  
   return (
     <>
       <div className="container contact-page">
@@ -33,20 +35,23 @@ const Contact = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
-              idx={10}
+              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'M', 'e']}
+              idx={1}
             />
           </h1>
           <p>
-          Thank you for taking the time to visite and get to know more about me. 
-          <br/>
-          I look forward to hearing from you.
+            Thank you for your visite.
+            <br/>
+            I look forward to hearing from you.
           </p>
+
+
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
+              
               <ul>
                 <li className="half">
-                  <input placeholder=" Your name" type="text" name="name" required />
+                  <input placeholder=" Your name" type="text" name="from_name" required />
                 </li>
                 <li className="half">
                   <input

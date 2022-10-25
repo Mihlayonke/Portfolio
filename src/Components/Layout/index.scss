@@ -26,12 +26,16 @@
   
   .container {
     width: 100%;
+    display: flex;
     will-change: contents;
     height: 90%;
     min-height: 566px;
-    position: absolute;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: stretch;
     opacity: 0;
-    top: 5%;
     margin: 0 auto;
     z-index: 1;
     transform-style: preserve-3d;
@@ -56,10 +60,10 @@
       }
   
       p {
-        font-size: 14px;
+        font-size: 16px;
         color: #fff;
         padding: 2px;
-        font-family: sans-serif;
+        font-family: 'Helvetica Neue', cursive;
         font-weight: 300;
         max-width: auto;
         animation: pulse 1s;
@@ -90,7 +94,7 @@
   
     .text-animate-hover {
       &:hover {
-        color: #fff;
+        color: rgb(0, 0, 0);
       }
     }
   }

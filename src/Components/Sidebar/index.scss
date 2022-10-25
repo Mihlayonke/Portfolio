@@ -67,8 +67,6 @@
                 -webkit-transition: all 0.3s ease-out;
                 transition: all 0.3s ease-out;
             }
-    
-            
         }
 
         a.home-link{
@@ -80,6 +78,12 @@
         a.about-link{
             &:after{
                 content: 'ABOUT';
+            }
+        }
+        
+        a.portfoilo-link{
+            &::after{
+                content: 'WORK';
             }
         }
 
