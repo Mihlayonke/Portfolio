@@ -1,0 +1,102 @@
+import {  useState } from 'react'
+import Loader from 'react-loaders'
+
+import { useRef } from 'react'
+import emailjs from '@emailjs/browser'
+import AnimatedLetters from '../AnimatedLetters'
+import './index.scss'
+
+const Contact = () => {
+  const [letterClass] = useState('text-animate')
+  const form = useRef()
+
+  const sendEmail = (e) => {
+    e.preventDefault()
+
+    emailjs
+      .sendForm('gmail', 'template_YeJhZkgb', form.current, 'your-token')
+      .then(
+        () => {
+          alert('Message successfully sent!')
+          window.location.reload(false)
+        },
+        () => {
+          alert('Failed to send the message, please try again')
+        }
+      )
+  }
+
+  return (
+    <>
+      <div className="container contact-page">
+        <div className="text-zone">
+          <h1>
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
+              idx={10}
+            />
+          </h1>
+          <p>
+          Thank you for taking the time to visite and get to know more about me. 
+          <br/>
+          I look forward to hearing from you.
+          </p>
+          <div className="contact-form">
+            <form ref={form} onSubmit={sendEmail}>
+              <ul>
+                <li className="half">
+                  <input placeholder=" Your name" type="text" name="name" required />
+                </li>
+                <li className="half">
+                  <input
+                    placeholder=" Your e-mail"
+                    type="email"
+                    name="email"
+                    required
+                  />
+                </li>
+                <li>
+                  <input
+                    placeholder="Subject"
+                    type="text"
+                    name="subject"
+                    required
+                  />
+                </li>
+                <li>
+                  <textarea
+                    placeholder="Message"
+                    name="message"
+                    required
+                  ></textarea>
+                </li>
+                <li>
+                  <input type="submit" className="flat-button" value="SEND MESSAGE" />
+                </li>
+              </ul>
+            </form>
+          </div>
+        </div>
+        <div className="info-map">
+
+          Physical Address:
+          <br />
+           Table View,
+          <br />
+           Cape Town, Western Cape <br />
+           7441 <br />
+          <br />
+          Email: mihlatembe@outlook.com
+          <br />
+          Phone: (+27) 72 178 7779
+        </div>
+
+      </div>
+
+      <Loader type="pacman" />
+    </>
+  )
+}
+
+export default Contact
