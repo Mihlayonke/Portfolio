@@ -38,20 +38,20 @@ const About = () => {
                   I know Computer Science fundamentals such as
                   Object-Oriented Programming, System Development Life Cycle
                   "SDLC", Agile Development, Data Structures, and Complex
-                  Analysis.
+                  Analysis. I have a Bachelor's Degree in Computer Science and Information 
+                  Technology that I obtained at the University of Kwa-Zulu Natal.
+              </p>
+
+              <p>
+                  I have skills and experience with the following languages: Java, C#, Python, 
+                  JavaScrip, TypeScrip, HTML5, CSS3, ASP.Net, Visual Basic, Angular2+, React, and SQL.
               </p>
                   
               <p>
-                  I`m action-oriented, a problem-solver, detail-oriented, a
-                  team player, focused, self-motivated, and communicate well and
-                  clearly. I`m enthusiastic to continue learning more technologies.
+                  I have a knowledge and experience with using the following tools: Github, Git,
+                  VS Code, Microsft SQL, Visual Studio, Terminals, IntelliJ, Jira, and NodeJS.
               </p>
               
-              <p>
-                  I have skills and experience with Java, C#, Python, JavaScrip, TypeScrip, HTML5, CSS3, ASP.Net. Angular2+
-                  React and SQL.
-              </p>
-
               <Link to ="/contact" className = 'flat-button'> CONTACT ME </Link>
 
             <div/>

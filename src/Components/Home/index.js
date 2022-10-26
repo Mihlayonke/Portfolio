@@ -13,7 +13,7 @@ const Home = () => {
     const arrayGreet = ['H', 'e','l','l','o',' 👋'];
     const arrayName = ['I',"'",'m',' ','M', 'i', 'h', 'l', 'a', 'y', 'o', 'n', 'k', 'e', ' ', 'T', 'e', 'm', 'b', 'e', ','];
     const arrayJob = ['I',"'",'m',' ','a',' ','S', 'o', 'f', 't', 'w', 'a', 'r', 'e', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.' ];
-    const arrayMore = ['Web Developer ',' / ',' Front-End Developer ', ' / ', ' Back-End Developer']
+    const arrayMore = ['Full-Stack Web-Developer ',' / ',' Front-End Developer ', ' / ', ' Back-End Developer',]
 
     return (
         <>
@@ -32,7 +32,7 @@ const Home = () => {
                 </h1>
 
                 <h2> 
-                    <AnimatedLetters lettersClass={lettersClass} strArray={arrayMore} idx={90}/> 
+                    <AnimatedLetters lettersClass={lettersClass} strArray={arrayMore} idx={100}/> 
                 </h2>
 
                 <Link to ="/about" className = 'flat-button'> ABOUT ME </Link>
