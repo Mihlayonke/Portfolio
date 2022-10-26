@@ -38,7 +38,11 @@ const About = () => {
                   I know Computer Science fundamentals such as
                   Object-Oriented Programming, System Development Life Cycle
                   "SDLC", Agile Development, Data Structures, and Complex
-                  Analysis. I have a Bachelor's Degree in Computer Science and Information 
+                  Analysis.
+              </p>
+
+              <p>
+                  I have a Bachelor's Degree in Computer Science and Information 
                   Technology that I obtained at the University of Kwa-Zulu Natal.
               </p>
 
