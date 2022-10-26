@@ -59,6 +59,8 @@ const Home = () => {
     return (
         <div className="dashboard">
 
+            <h1>Dashboard</h1>
+
             <form ref={form} onSubmit={submitPortfolio}>
                 <p><input type="text" placeholder="Name" /></p>
                 <p><textarea placeholder="Description" /></p>
