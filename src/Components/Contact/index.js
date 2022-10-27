@@ -89,7 +89,9 @@ const Contact = () => {
           <br />
            Table View,
           <br />
-           Cape Town, Western Cape <br />
+           Cape Town, 
+           <br />
+           Western Cape, South Africa <br />
            7441 <br />
           <br />
           Email: mihlatembe@outlook.com
