@@ -60,7 +60,7 @@
       }
   
       p {
-        font-size: 18px;
+        font-size: 16px;
         color: #fff;
         padding: 2px;
         font-family: 'Helvetica Neue';
@@ -108,9 +108,18 @@
       position: relative;
       width: 100%;
       left: 10%;
-      top: 50%;
-      display: table-cell;
+      top: 20%;
+      display: grid;
       vertical-align: middle;
+      align-content: stretch;
+
+      .text-zone {
+        width: 100%;
+      }
+
+      .logo-container{
+        left: 10%;
+      }
     }
   
     .container {
