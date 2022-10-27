@@ -78,7 +78,7 @@
   
     .text-zone {
       position: absolute;
-      left: 0%;
+      left: 10%;
       top: 50%;
       transform: translateY(-50%);
       width: 50%;
@@ -135,7 +135,8 @@
           display: block;
           padding: 20px;
           box-sizing: border-box;
-          top:10%
+          top:10%;
+          
         }
       }
   
