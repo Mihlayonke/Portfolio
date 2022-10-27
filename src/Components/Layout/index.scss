@@ -78,7 +78,7 @@
   
     .text-zone {
       position: absolute;
-      left: 10%;
+      left: 0%;
       top: 50%;
       transform: translateY(-50%);
       width: 50%;
@@ -129,12 +129,13 @@
       &.about-page,
       &.portfolio-page {
         .text-zone {
-          position: initial;
+          position: relative;
           transform: none;
           width: 100%;
           display: block;
           padding: 20px;
           box-sizing: border-box;
+          top:10%
         }
       }
   
