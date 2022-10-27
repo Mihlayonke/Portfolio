@@ -100,8 +100,8 @@
 .info-map {
   position: absolute;
   background: #000;
-  top: 35%;
-  right: 9%;
+  top: 0%;
+  right: 0%;
   z-index: 999999;
   width: 300px;
   padding: 30px;
@@ -129,6 +129,6 @@
   .info-map {
     position: relative;
     font-family: 'Helvetica Neue';
-    left: 3%;
+    left: 5%;
   }
 }

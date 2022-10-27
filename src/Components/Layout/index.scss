@@ -108,10 +108,9 @@
       position: relative;
       width: 100%;
       left: 10%;
-      top: 20%;
+      top: 10%;
       display: grid;
-      vertical-align: middle;
-      align-content: stretch;
+      align-content: center;
 
       .text-zone {
         width: 100%;
@@ -119,14 +118,14 @@
 
       .logo-container{
         left: 10%;
+        position: relative;
       }
     }
   
     .container {
       position: absolute;
-      height: auto;
-      min-height: auto;
-      left:10%;
+
+      left:12%;
       
       
       &.contact-page,
