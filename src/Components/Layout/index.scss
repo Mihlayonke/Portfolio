@@ -103,12 +103,22 @@
     .page {
       position: initial;
     }
+
+    .home-page{
+      position: relative;
+      width: 100%;
+      left: 10%;
+      top: 50%;
+      display: table-cell;
+      vertical-align: middle;
+    }
   
     .container {
-      position: initial;
+      position: absolute;
       height: auto;
       min-height: auto;
-  
+      
+      
       &.contact-page,
       &.about-page,
       &.portfolio-page {
