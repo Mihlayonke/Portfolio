@@ -108,12 +108,16 @@
       position: relative;
       width: 100%;
       left: 10%;
-      top: 10%;
+      top: 20%;
       display: grid;
       align-content: center;
 
       .text-zone {
         width: 100%;
+
+        .h1{
+          font-size: 40px;
+        }
       }
 
       .logo-container{
