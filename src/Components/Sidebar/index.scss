@@ -25,7 +25,6 @@
         height: 210px;
         top: 50%;
         margin-top: -120px;
-        padding: 3px;
         width: 100%;
     
         a {
@@ -33,7 +32,7 @@
           color: #4d4d4e;
           display: block;
           line-height: 51px;
-          padding: auto;
+          padding: 7px;
           height: 51px;
           position: relative;
           text-decoration: none;
@@ -56,39 +55,39 @@
     
           &:after {
             content: '';
-            font-size: 9px;
-            letter-spacing: 2px;
+            font-size: 13px;
+            letter-spacing: 3px;
             position: absolute;
             bottom: 0;
             display: block;
             width: 100%;
-            text-align: center;
+            text-align:center;
             opacity: 0;
             -webkit-transition: all 0.3s ease-out;
             transition: all 0.3s ease-out;
           }
     
           &:first-child {
-            &:after {
+            &::after {
               content: 'HOME';
             }
           }
         }
     
         a.about-link {
-          &:after {
+          &::after {
             content: 'ABOUT';
           }
         }
     
         a.contact-link {
-          &:after {
+          &::after {
             content: 'CONTACT';
           }
         }
     
         a.portfolio-link {
-          &:after {
+          &::after {
             content: 'WORK';
           }
         }

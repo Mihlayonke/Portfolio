@@ -13,7 +13,6 @@ const Portfolio = () => {
         <>
             <div className="container portfolio-page">
                 
-                
                 <div className="image-box">
                     <img 
                     src={Logo}
