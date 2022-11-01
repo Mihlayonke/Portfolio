@@ -103,20 +103,20 @@
       position: relative;
       width: 100%;
       left: 10%;
-      top: 10%;
+      top: 0%;
       display: grid;
       align-content: center;
 
       .text-zone {
-        width: 100%;
+        width: 90%;
 
         h1{
-          font-size: 35px;
+          font-size: 40px;
         }
       }
 
       .logo-container{
-        left: 7%;
+        left: 3%;
         position: relative;
       }
     }
