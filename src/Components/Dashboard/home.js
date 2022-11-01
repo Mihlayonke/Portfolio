@@ -35,14 +35,6 @@ const Home = () => {
                         image: null
                     })
                 })
-            }, (error) => {
-                console.log(error);
-                savePortfolio({
-                    name,
-                    description,
-                    url,
-                    image: null
-                })
             }
         )
     }
@@ -51,6 +43,7 @@ const Home = () => {
         try {
             await addDoc(collection(db, 'portfolio'), portfolio);
             window.location.reload(false);
+            alert ('Uploaded Successeded')
         } catch (error) {
             alert('Failed to add portfolio');
         }

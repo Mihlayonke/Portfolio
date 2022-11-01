@@ -1,76 +1,74 @@
-import React, { useEffect, useState } from "react";
+//import React, { useState } from "react";
 import Loader from "react-loaders";
-import AnimatedLetters from "../AnimatedLetters";
+//import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
-import { getDocs, collection } from 'firebase/firestore';
-import { db } from '../../firebase';
+import Logo from '../../../src/assets/images/Logo.png';
+import Quize from '../../../src/assets/images/Quize.png';
+import Desktop from '../../../src/assets/images/Desktop_App.jpeg';
+
 
 const Portfolio = () => { 
-    const [letterClass, setLetterClass] = useState('text-animate');
-    const [portfolio, setPortfolio] = useState([]);
-
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setLetterClass('text-animate-hover');
-        }, 3000);
-
-        return () => {
-            clearTimeout(timer); 
-        }
-    });
-
-    useEffect(() => {
-        getPortfolio();
-    }, []);
-
-    const getPortfolio = async () => {
-        const querySnapshot = await getDocs(collection(db, 'portfolio'));
-        setPortfolio(querySnapshot.docs.map((doc) => doc.data()));
-    }
-
-    const renderPortfolio = (portfolio) => {
-        return (
-            <div className="images-container">
-                {
-                    portfolio.map((port, idx) => {
-                        return (
-                            <div className="image-box" key={idx}>
-                                <img 
-                                src={port.image}
-                                className="portfolio-image"
-                                alt="portfolio" />
-                                <div className="content">
-                                    <p className="title">{port.name}</p>
-                                    <h4 className="description">{port.description}</h4>
-                                    <button
-                                        className="btn"
-                                        onClick={() => window.open(port.url)}
-                                    >View</button>
-                                </div>
-                            </div>
-                        )
-                    })
-                }
-            </div>
-        );
-    }
-
-
+    
     return (
         <>
             <div className="container portfolio-page">
-                <h1 className="page-title">
-                    <AnimatedLetters
-                        letterClass={letterClass}
-                        strArray={"My Work".split("")}
-                        idx={15}
-                    />
-                </h1>
-                <div>{renderPortfolio(portfolio)}</div>
+                
+                
+                <div className="image-box">
+                    <img 
+                    src={Logo}
+                    className="portfolio-image"
+                    alt="portfolio" />
+                    
+                    <div className="content">
+                        <p className="title">My Portfoilo</p>
+                        <h4 className="description">This is portfolio projects that you are currently on it.</h4>
+
+                        <a  target= "_blank" rel="noreferrer"
+                            className="btn"
+                            href="https://github.com/Mihlayonke/Portfolio"
+                       > View Source Code </a>
+                    </div>
+                </div>
+                
+                <div className="image-box">
+                    <img 
+                    src={Quize}
+                    className="portfolio-image"
+                    alt="portfolio" />
+                    
+                    <div className="content">
+                        <p className="title">The Quize Game</p>
+                        <h4 className="description">This is a quzie game</h4>
+
+                        <a  target= "_blank" rel="noreferrer"
+                            className="btn"
+                            href="https://github.com/Mihlayonke/Quiz_Game"
+                       > View Source Code </a>
+                    </div>
+                </div>
+                
+                <div className="image-box">
+                    <img 
+                    src={Desktop}
+                    className="portfolio-image"
+                    alt="portfolio" />
+                    
+                    <div className="content">
+                        <p className="title">Varsity Pharmacy</p>
+                        <h4 className="description">This is a POS desktop app for a Varsity Pharmacy store.</h4>
+
+                        <a  target= "_blank" rel="noreferrer"
+                            className="btn"
+                            href="https://github.com/Mihlayonkehttps://github.com/Mihlayonke/Varsity_Pharmacy_Windows_Form/"
+                       > View Source Code </a>
+                    </div>
+                </div>
             </div>
             <Loader type="pacman" />
         </>
     );
 }
+
 
 export default Portfolio;
