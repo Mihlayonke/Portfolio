@@ -145,9 +145,13 @@
         width: 90%;
         padding: 20px;
         box-sizing: border-box;
-        display: block;
+        display: flex;
         position: absolute;
         left: 15%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: stretch;
+        justify-content: center;
   
         h1.page-title {
           margin-left: 20px;
