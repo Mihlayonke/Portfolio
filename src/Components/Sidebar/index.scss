@@ -55,13 +55,13 @@
     
           &:after {
             content: '';
-            font-size: 13px;
-            letter-spacing: 3px;
+            font-size: 10px;
+            letter-spacing: 2px;
             position: absolute;
-            bottom: 0;
+            bottom: 3px;
             display: block;
             width: 100%;
-            text-align:center;
+            text-align: center;
             opacity: 0;
             -webkit-transition: all 0.3s ease-out;
             transition: all 0.3s ease-out;
@@ -88,7 +88,7 @@
     
         a.portfolio-link {
           &::after {
-            content: 'WORK';
+            content: 'PROJECT';
           }
         }
     

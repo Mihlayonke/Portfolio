@@ -11,6 +11,9 @@ const Portfolio = () => {
     
     return (
         <>
+            <div >
+                <h1 className="page-title"> Projects </h1>
+            </div>
             <div className="container portfolio-page">
                 
                 <div className="image-box">
@@ -23,10 +26,10 @@ const Portfolio = () => {
                         <p className="title">My Portfoilo</p>
                         <h4 className="description">This is portfolio projects that you are currently on it.</h4>
 
-                        <a  target= "_blank" rel="noreferrer"
+                        <button  target= "_blank" rel="noreferrer"
                             className="btn"
                             href="https://github.com/Mihlayonke/Portfolio"
-                       > View Source Code </a>
+                       > View Source Code </button>
                     </div>
                 </div>
                 
@@ -40,10 +43,10 @@ const Portfolio = () => {
                         <p className="title">The Quize Game</p>
                         <h4 className="description">This is a quzie game</h4>
 
-                        <a  target= "_blank" rel="noreferrer"
+                        <button  target= "_blank" rel="noreferrer"
                             className="btn"
                             href="https://github.com/Mihlayonke/Quiz_Game"
-                       > View Source Code </a>
+                       > View Source Code </button>
                     </div>
                 </div>
                 
@@ -57,10 +60,10 @@ const Portfolio = () => {
                         <p className="title">Varsity Pharmacy</p>
                         <h4 className="description">This is a POS desktop app for a Varsity Pharmacy store.</h4>
 
-                        <a  target= "_blank" rel="noreferrer"
+                        <button  target= "_blank" rel="noreferrer"
                             className="btn"
                             href="https://github.com/Mihlayonkehttps://github.com/Mihlayonke/Varsity_Pharmacy_Windows_Form/"
-                       > View Source Code </a>
+                       > View Source Code </button>
                     </div>
                 </div>
             </div>
