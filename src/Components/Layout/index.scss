@@ -122,7 +122,7 @@
     }
   
     .container {
-      position: absolute;
+      position: relative;
       left:5%;
       
       &.contact-page,
@@ -135,7 +135,7 @@
           display: block;
           padding: 20px;
           box-sizing: border-box;
-          top:10%;
+          top:20%;
           left: 0%;
           
         }
