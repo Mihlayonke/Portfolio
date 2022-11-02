@@ -94,13 +94,13 @@
   }
   
   @media screen and (max-width: 1200px) {
-    .page {
+    .page { 
       position: initial;
     }
 
     .home-page{
       position: relative;
-      width: 100%;
+      width: 90%;
       left: 10%;
       top: 10%;
       display: grid;
