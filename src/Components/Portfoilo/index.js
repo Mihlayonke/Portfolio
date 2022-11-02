@@ -1,6 +1,6 @@
-//import React, { useState } from "react";
+import React, { useState } from "react";
 import Loader from "react-loaders";
-//import AnimatedLetters from "../AnimatedLetters";
+import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 import Logo from '../../../src/assets/images/Logo.png';
 import Quize from '../../../src/assets/images/Quize.png';
@@ -9,11 +9,20 @@ import Desktop from '../../../src/assets/images/Desktop_App.jpeg';
 
 
 const Portfolio = () => { 
+    const [letterClass] = useState('text-animate');
+
     
     return (
         <>
             <div >
-                <h1 className="page-title"> Projects </h1>
+                <h1 className="page-title"> 
+                <AnimatedLetters
+                        letterClass={letterClass}
+                        strArray={"Projects".split("")}
+                        idx={15}/>
+                 </h1>
+
+                
             </div>
 
             <div className="container portfolio-page">
