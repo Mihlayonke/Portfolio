@@ -49,8 +49,7 @@
         font-weight: 400;
         margin-top: 40px;
         position: relative;
-        
-        left: 20px;
+        text-align: center;
   
       }
   
@@ -127,7 +126,20 @@
       position: relative;
       left:5%;
       
-      &.contact-page,
+      &.contact-page{
+        .text-zone {
+          position: relative;
+          transform: none;
+          width: 100%;
+          display: block;
+          padding: 20px;
+          box-sizing: border-box;
+          top:5%;
+          left: 4%;
+          
+        }
+      }
+
       &.about-page,
       &.portfolio-page {
         .text-zone {
