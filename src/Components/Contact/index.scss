@@ -99,10 +99,10 @@
 
 .info-map {
   position: absolute;
-  background: #000;
+  background: #115173;
   top: 41%;
   right: 5%;
-  z-index: 999999;
+  
   width: 320px;
   padding: 30px;
   color: #fff;
@@ -112,6 +112,10 @@
   opacity: 0;
   animation: fadeIn 1s 1.5s;
   animation-fill-mode: forwards;
+
+  &:hover{
+    background-color: #000000;
+  }
 
   span {
     font-size: 16px;
@@ -139,6 +143,6 @@
     position: relative;
     font-family: 'Helvetica Neue';
     left: 3%;
-    top:20%;
+    top:15%;
   }
 }
