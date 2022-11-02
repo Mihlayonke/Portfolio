@@ -134,19 +134,19 @@
           display: block;
           padding: 20px;
           box-sizing: border-box;
-          top:15%;
+          top:17%;
           left: 0%;
           
         }
       }
   
       &.portfolio-page {
-        width: 90%;
+        width: 100%;
         padding: 20px;
         box-sizing: border-box;
         display: flex;
         position: absolute;
-        left: 15%;
+        left: 10%;
         flex-direction: column;
         flex-wrap: wrap;
         align-content: stretch;

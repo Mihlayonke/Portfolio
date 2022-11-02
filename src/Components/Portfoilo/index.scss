@@ -3,13 +3,34 @@ h1.page-title{
     font-family: 'Helvetica Neue';
     color: #fff;
     font-weight: 400;
-    margin-top: 0;
+    margin-top: 20px;
     position: relative;
-    margin: 50px;
+    margin-bottom: 0px;
     left: 20px;
     text-align: center;
 
   }
+
+  .flat-button{
+    color:#fff;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 19px 18px;
+    border: 1px solid #fff;
+    margin-top: 25px;
+    float: left;
+    animation: fadeIn 5s 5.5s backwards;
+    white-space: nowrap;
+
+    &:hover{
+        background-color: rgb(0, 0, 0);
+        color: #fff;
+    }
+
+}
 
 .portfolio-page {
     padding-left: 100px;
