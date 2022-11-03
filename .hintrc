@@ -27,6 +27,12 @@
       }
     ],
     "create-element-svg": "off",
-    "meta-viewport": "off"
+    "meta-viewport": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "document-title": "off"
+      }
+    ]
   }
 }
