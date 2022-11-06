@@ -33,6 +33,7 @@
       {
         "document-title": "off"
       }
-    ]
+    ],
+    "apple-touch-icons": "off"
   }
 }
