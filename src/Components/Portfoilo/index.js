@@ -34,7 +34,7 @@ const Portfolio = () => {
                     alt="portfolio" />
                     
                     <div className="content">
-                        <p className="title">My Portfoilo</p>
+                        <p className="title">Mihla's Portfoilo</p>
                         <h4 className="description">This is portfolio projects that you are currently on it.</h4>
 
                         <a target= "_blank" rel="noreferrer" href='https://github.com/Mihlayonke/Portfolio'>
