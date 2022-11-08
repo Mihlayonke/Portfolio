@@ -53,7 +53,7 @@ const Portfolio = () => {
                         <p className="title">The Varsity Pharmacy</p>
                         <h4 className="description">This is a web applicaion for a pharmacy store</h4>
 
-                       <a target= "_blank" rel="noreferrer" href="https://github.com/Mihlayonke/Quiz_Game">
+                       <a target= "_blank" rel="noreferrer" href="https://github.com/Mihlayonke/Varsity_Phamarcy_Web">
                             <button className="btn"> View Source Code </button>
                         </a>
                     </div>
