@@ -13,16 +13,16 @@
           font-size: 50px;
           margin-top: 10px;
           font-family: 'Helvetica Neue' ;
-          font-weight: 400;
+          font-weight: 500;
       }
   
       h2 {
-          color:darkgrey;
+          color:yellow;
           font-family: 'Coolvetica';
           letter-spacing: 2px;
           font-size: 18px;
           animation: fadeIn 4s 4.5s backwards;
-
+          font-weight: 300;
       }
 
       .flat-button{
@@ -38,10 +38,12 @@
           float: left;
           animation: fadeIn 5s 5.5s backwards;
           white-space: nowrap;
+          text-transform: uppercase;
+          font-weight: 700;
   
           &:hover{
-              background-color: rgb(0, 0, 0);
-              color: #fff;
+              background-color: yellow;
+              color: rgb(0, 0, 0);
           }
   
       }

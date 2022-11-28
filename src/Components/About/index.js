@@ -37,7 +37,7 @@ const About = () => {
               <p>
                   I know Computer Science fundamentals such as
                   Object-Oriented Programming, System Development Life Cycle
-                  "SDLC", Agile Development, Data Structures, and Complex
+                  , Agile Development, Data Structures, and Complex
                   Analysis.
               </p>
 
@@ -62,33 +62,40 @@ const About = () => {
           </div>
 
           <div className="stage-cube-cont">
-        <div className="cubespinner">
-          <div className="face1">
-            <FontAwesomeIcon icon={faAngular} color="#DD0031" />
-          </div>
-          <div className="face2">
-            <FontAwesomeIcon icon={faHtml5} color="#F06529" />
-          </div>
-          <div className="face3">
-            <FontAwesomeIcon icon={faJava} color="#28A4D9" />
-          </div>
-          <div className="face4">
-            <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
-          </div>
-          <div className="face5">
-            <FontAwesomeIcon icon={faSquareJs} color="#EFD81D" />
-          </div>
-          <div className="face6">
-            <FontAwesomeIcon icon={faGithub} color="#ffffff" />
+            
+            <div className="cubespinner">
+              <div className="face1">
+                <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+              </div>
+
+              <div className="face2">
+                <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+              </div>
+
+              <div className="face3">
+                <FontAwesomeIcon icon={faJava} color="#28A4D9" />
+              </div>
+
+              <div className="face4">
+                <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+              </div>
+
+              <div className="face5">
+                <FontAwesomeIcon icon={faSquareJs} color="#EFD81D" />
+              </div>
+
+              <div className="face6">
+                <FontAwesomeIcon icon={faGithub} color="#ffffff" />
+              </div>
+              
+            </div>
           </div>
         </div>
-      </div>
-    </div>
 
-    <Loader type="pacman" />
+      <Loader type="pacman" />
 
     </>
-    )
+  )
 }
 
 export default About;
