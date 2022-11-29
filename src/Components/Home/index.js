@@ -10,7 +10,7 @@ const Home = () => {
     // eslint-disable-next-line no-unused-vars
     const [lettersClass, setLetterClass] = useState('text-animate');
 
-    const arrayGreet = ['W', 'e','l','c','o','m','e','!','🙂'];
+    const arrayGreet = ['W', 'e','l','c','o','m','e','!',' ','🙂'];
     const arrayName = ['I',"'",'m',' ','M', 'i', 'h', 'l', 'a', 'y', 'o', 'n', 'k', 'e', ' ', 'T', 'e', 'm', 'b', 'e', ','];
     const arrayJob = ['I',"'",'m',' ','a',' ','S', 'o', 'f', 't', 'w', 'a', 'r', 'e', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.' ];
     const arrayMore = ['Full-Stack Developer ',' | ',' Front-End Developer ', ' | ',' Back-End Developer',]
