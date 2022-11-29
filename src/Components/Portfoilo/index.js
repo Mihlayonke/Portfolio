@@ -50,7 +50,7 @@ const Portfolio = () => {
                     alt="portfolio" />
                     
                     <div className="content">
-                        <p className="title">Varsity Pharmacy Web</p>
+                        <p className="title">Varsity Pharmacy Web App</p>
                         <h4 className="description">This is a website for a pharmacy store</h4>
 
                        <a target= "_blank" rel="noreferrer" href="https://github.com/Mihlayonke/Varsity_Phamarcy_Web">
@@ -66,7 +66,7 @@ const Portfolio = () => {
                     alt="portfolio" />
                     
                     <div className="content">
-                        <p className="title">Varsity Pharmacy App</p>
+                        <p className="title">Varsity Pharmacy Desktop App</p>
                         <h4 className="description">This is a POS desktop app for a pharmacy store.</h4>
 
                        <a target= "_blank" rel="noreferrer" href="https://github.com/Mihlayonke/Varsity_Pharmacy_Windows_Form/">
