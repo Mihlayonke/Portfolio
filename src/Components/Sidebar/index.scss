@@ -26,7 +26,7 @@
         top: 50%;
         margin-top: -120px;
         width: 100%;
-        color: #fff;
+
     
         a {
           font-size: 22px;
@@ -65,12 +65,12 @@
             position: absolute;
             display: block;
             width: 100%;
-            text-align: center;
+            text-align:inherit;
             top: 0px;
             opacity: 0;
             -webkit-transition: all 0.3s ease-out;
             transition: all 0.3s ease-out;
-            color: #ffffff;
+            color: yellow;
           }
     
           &:first-child {
@@ -129,9 +129,10 @@
           }
     
           &:hover {
-            .anchor-icon {
-              color: #fff;
+            svg{
+              color: yellow;
             }
+            
           }
         }
       }
