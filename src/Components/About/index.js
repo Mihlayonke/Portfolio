@@ -24,7 +24,7 @@ const About = () => {
       <div className='container about-page'>
           <div className='text-zone'>
               <h1>
-                  <AnimatedLetters letterClass={letterClass} strArray={['A','b','o','u','t',' ','M','e']} 
+                  <AnimatedLetters letterClass={letterClass} strArray={['A','b','o','u','t']} 
                   idx={10} />
               </h1>
 
