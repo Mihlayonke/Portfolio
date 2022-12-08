@@ -138,11 +138,7 @@
         }
       }
 
-      &.about-page{
-        .text-zone{
-          animation: fadeInLeft 2s;
-        }
-      }
+      &.about-page,
       &.portfolio-page {
         .text-zone {
           position: relative;
@@ -153,6 +149,7 @@
           box-sizing: border-box;
           top:15%;
           left: 0%;
+          
           
         }
       }
