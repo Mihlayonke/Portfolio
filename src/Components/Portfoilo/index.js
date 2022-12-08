@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 import Logo from '../../../src/assets/images/Logo.png';
