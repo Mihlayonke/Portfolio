@@ -7,16 +7,18 @@
   position: absolute;
   right: 0;
   overflow: hidden;
+  animation: backInUp 2s;;
 }
   
 .cubespinner {
   animation-name: spincube;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-  animation-duration: 12s;
+  animation-duration: 10s;
   transform-style: preserve-3d;
   transform-origin: 100px 100px 0;
   margin-left: calc(50% - 100px);
+  
   
 
   div {
@@ -38,7 +40,7 @@
   
 
   .face1 {
-    transform: translateZ(100px);
+    transform: rotateY(0deg) translateZ(100px);
     color: #dd0031;
   }
   .face2 {

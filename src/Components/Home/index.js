@@ -26,13 +26,12 @@ const Home = () => {
                     <br/>
                     <AnimatedLetters lettersClass={lettersClass} strArray={arrayName} idx={35}/> 
                     <br/>
-
-                    <AnimatedLetters lettersClass={lettersClass} strArray={arrayJob} idx={65}/> 
+                    <AnimatedLetters lettersClass={lettersClass} strArray={arrayJob} idx={60}/> 
                     <br/>
                 </h1>
 
                 <h2> 
-                    <AnimatedLetters lettersClass={lettersClass} strArray={arrayMore} idx={100}/> 
+                    <AnimatedLetters lettersClass={lettersClass} strArray={arrayMore} idx={85}/> 
                 </h2>
 
                 <Link to ="/about" className = 'flat-button'> ABOUT ME </Link>

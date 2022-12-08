@@ -5,17 +5,9 @@ import './index.scss'
 import React from 'react';
 
 const Logo = () => {
-  const bgRef = useRef()
   const solidLogoRef = useRef()
 
   useEffect(() => {
-
-    gsap
-      .timeline()
-      .to(bgRef.current, {
-        duration: 1,
-        opacity: 1,
-      })
 
     gsap.fromTo(
       solidLogoRef.current,
@@ -24,14 +16,13 @@ const Logo = () => {
       },
       {
         opacity: 1,
-        delay: 5,
-        duration: 3,
+        delay: 2,
       }
     )
   }, [])
 
   return (
-    <div className="logo-container" ref={bgRef}>
+    <div className="logo-container" >
       <img
         className="solid-logo"
         ref={solidLogoRef}

@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { useEffect, useRef } from 'react'
+import gsap from 'gsap-trial'
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 import Logo from '../../../src/assets/images/Logo.png';
@@ -9,6 +11,50 @@ import Desktop from '../../../src/assets/images/Desktop_App.jpeg';
 
 const Portfolio = () => { 
     const [letterClass] = useState('text-animate');
+
+    const box1 = useRef()
+    const box2 = useRef()
+    const box3 = useRef()
+    
+
+    useEffect(() => {
+    
+        gsap.fromTo(
+          box1.current,
+          {
+            opacity: 0,
+          },
+          {
+            opacity: 1,
+            delay: 1.5,
+          }
+          
+        )
+        
+        gsap.fromTo(
+          box2.current,
+          {
+            opacity: 0,
+          },
+          {
+            opacity: 1,
+            delay: 1.5,
+          }
+          
+        )
+        
+        gsap.fromTo(
+          box3.current,
+          {
+            opacity: 0,
+          },
+          {
+            opacity: 1,
+            delay: 1.5,
+          }
+          
+        )
+      }, [])
 
     
     return (
@@ -24,9 +70,9 @@ const Portfolio = () => {
                 
             </div>
 
-            <div className="container portfolio-page">
+            <div className="container portfolio-page" >
                 
-                <div className="image-box">
+                <div className="image-box" ref={box1}>
                     <img 
                     src={Logo}
                     className="portfolio-image"
@@ -42,7 +88,7 @@ const Portfolio = () => {
                     </div>
                 </div>
                 
-                <div className="image-box">
+                <div className="image-box" ref={box2}>
                     <img 
                     src={Web_App}
                     className="portfolio-image"
@@ -58,7 +104,7 @@ const Portfolio = () => {
                     </div>
                 </div>
                 
-                <div className="image-box">
+                <div className="image-box" ref={box3}>
                     <img 
                     src={Desktop}
                     className="portfolio-image"

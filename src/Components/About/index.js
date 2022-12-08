@@ -12,11 +12,30 @@ import {
   } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import { useEffect, useRef } from 'react'
+import gsap from 'gsap-trial'
   
 
 const About = () => {
   const [letterClass] = useState('text-animate')
 
+  const cube = useRef()
+    
+  useEffect(() => {
+  
+      gsap.fromTo(
+        cube.current,
+        {
+          opacity: 0,
+        },
+        {
+          opacity: 1,
+          delay: 1.5,
+        }
+        
+      )
+      
+    }, [])
   
   return ( 
     <>
@@ -60,9 +79,9 @@ const About = () => {
             <div/>
           </div>
 
-          <div className="stage-cube-cont">
+          <div className="stage-cube-cont" ref={cube}>
             
-            <div className="cubespinner">
+            <div className="cubespinner" >
               <div className="face1">
                 <FontAwesomeIcon icon={faAngular} color="#DD0031" />
               </div>

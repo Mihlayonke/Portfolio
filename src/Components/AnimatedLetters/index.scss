@@ -6,19 +6,8 @@
     min-width: 10px; 
 }
 
-.text-animate-hover{
-    min-width: 10px;
-    display: inline-block;
-    animation-fill-mode: both;
-
-    &:hover{
-        animation: rubberBand 1s;
-        
-    }
-}
-
 @for $i from 1 through 150{
     .text-animate._#{$i} {
-        animation-delay: #{caLc($i / 20)}s;
+        animation-delay: #{caLc($i / 25)}s;
     }
 }

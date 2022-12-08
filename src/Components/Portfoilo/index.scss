@@ -40,6 +40,7 @@ h1.page-title{
         overflow: hidden;
         border-radius: 10px;
         max-width: calc(33% - 10px);
+        animation: backInLeft 2s;
 
         .portfolio-image {
             position: absolute;
