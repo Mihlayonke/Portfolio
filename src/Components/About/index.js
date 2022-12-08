@@ -92,7 +92,7 @@ const About = () => {
           </div>
         </div>
 
-      <Loader type="pacman" />
+      
 
     </>
   )

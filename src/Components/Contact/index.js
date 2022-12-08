@@ -104,7 +104,7 @@ const Contact = () => {
 
       </div>
 
-      <Loader type="pacman" />
+      
     </>
   )
 }
