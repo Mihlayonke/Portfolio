@@ -2,3 +2,10 @@
   .solid-logo {
     animation: backInDown 2s 1.5s;
   }
+
+  @media screen and (max-width: 1200px) {
+    .solid-logo{
+        animation: backInLedt 2s 1.5s;
+    }
+    
+  }

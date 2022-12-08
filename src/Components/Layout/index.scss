@@ -62,19 +62,19 @@
         max-width: auto;
         animation: pulse 1s;
         &:nth-of-type(1) {
-          animation-delay: 1.0s;
+          animation-delay: 2.0s;
         }
         &:nth-of-type(2) {
-          animation-delay: 1.3s;
+          animation-delay: 2.3s;
         }
         &:nth-of-type(3) {
-          animation-delay: 1.6s;
+          animation-delay: 2.6s;
         }
         &:nth-of-type(4) {
-          animation-delay: 1.9s;
+          animation-delay: 2.9s;
         }
         &:nth-of-type(5) {
-          animation-delay: 2.2s;
+          animation-delay: 3.2s;
         }
       }
   
@@ -86,7 +86,7 @@
       vertical-align: middle;
       display: table-cell;
       max-height: 90%;
-      animation: backInDown 2s;
+      animation: fadeInLeft 2s;
     }
   
     
@@ -138,7 +138,11 @@
         }
       }
 
-      &.about-page,
+      &.about-page{
+        .text-zone{
+          animation: fadeInLeft 2s;
+        }
+      }
       &.portfolio-page {
         .text-zone {
           position: relative;
@@ -184,5 +188,6 @@
       height: 0%;
       overflow: visible;
       padding-top: 10%;
+      animation: backInDown 2s;
     }
   }
