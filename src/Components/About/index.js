@@ -53,15 +53,14 @@ const About = () => {
               </p>
 
               <p>
-                  I know Computer Science fundamentals such as
-                  Object-Oriented Programming, System Development Life Cycle
-                  , Agile Development, Data Structures, and Complex
-                  Analysis.
+                  I have a Bachelor's Degree in Computer Science and Information 
+                  Technology that I obtained at the University of Kwa-Zulu Natal.
               </p>
 
               <p>
-                  I have a Bachelor's Degree in Computer Science and Information 
-                  Technology that I obtained at the University of Kwa-Zulu Natal.
+                  I know Computer Science fundamentals such as
+                  Object-Oriented Programming, System Development Life Cycle
+                  , Agile Development, Data Structures, and Complex Analysis.
               </p>
 
               <p>
@@ -109,8 +108,6 @@ const About = () => {
             </div>
           </div>
         </div>
-
-      
 
     </>
   )
