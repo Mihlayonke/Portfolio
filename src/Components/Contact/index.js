@@ -101,7 +101,7 @@ const Contact = () => {
             Phone: (+27) 72 178 7779
             <br />
             <br />
-            "(Hover here to see my photo)"
+            "(Point here to see my photo)"
         </div>
 
       </div>
