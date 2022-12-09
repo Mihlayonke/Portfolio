@@ -85,7 +85,7 @@ const Contact = () => {
         </div>
         <div className="info-map">
 
-          Physical Address:
+          Current Address:
           <br />
            Table View,
           <br />
@@ -95,10 +95,13 @@ const Contact = () => {
            <br />
            South Africa
            <br />
-          <br />
-          Email: mihlatembe@outlook.com
-          <br />
-          Phone: (+27) 72 178 7779
+            <br />
+            E-mail: mihlatembe@outlook.com
+            <br />
+            Phone: (+27) 72 178 7779
+            <br />
+            <br />
+            "(Hover here to see my photo)"
         </div>
 
       </div>

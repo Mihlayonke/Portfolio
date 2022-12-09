@@ -102,21 +102,25 @@
 .info-map {
   position: absolute;
   background: #115173;
-  top: 35%;
+  top: 34%;
   right: 5%;
-  width: 320px;
+  width: 300px;
+  height: 210px;
   padding: 30px;
   color: yellow;
   font-family: 'Helvetica Neue';
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 500;
   opacity: 0;
   animation: fadeInRight 2s 2s;
   animation-fill-mode: forwards;
-  
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 12px;
 
   &:hover{
-    background-color: #000000;
+    background-image: url('../../../src/assets/images/Mihla.jpg');
+    background-size: 360px;
+    color: #0a3951;
     
   }
 
