@@ -47,30 +47,32 @@ const About = () => {
               </h1>
 
               <p> I have obtained great knowledge and skills in software
-                  programming, web development, databases, operating systems, 
-                  and problem-solving during my undergraduate years and through
-                  self-taught.
+                  programming, web development, database management, operating systems, 
+                  and problem-solving during my undergraduate years, practice and self-taught.
               </p>
 
               <p>
                   I have a Bachelor's Degree in Computer Science and Information 
-                  Technology that I obtained at the University of Kwa-Zulu Natal.
+                  Technology obtained at the University of Kwa-Zulu Natal.
               </p>
 
               <p>
-                  I know Computer Science fundamentals such as
-                  Object-Oriented Programming, System Development Life Cycle
-                  , Agile Development, Data Structures, and Complex Analysis.
+                  I know Computer Science fundamentals such as Computer Architecture, Data Structures, 
+                  Algorithms, and Databases. I know methodologies such as System Development 
+                  Life Cycle focusing on Agile Development. I use Object-Oriented Programminpag radigm 
+                  when I program and other important programming practices.
               </p>
 
               <p>
                   I have skills and experience with the following languages: Java, C#, Python, 
-                  JavaScrip, TypeScrip, HTML5, CSS3, ASP.Net, Visual Basic, Angular2+, React, and SQL.
+                  JavaScrip, TypeScrip, HTML5, CSS3,and SQL. Frameworks such as ASP.Net, Angular2+, and React.
               </p>
                   
               <p>
                   I have a knowledge and experience with using the following tools: Github, Git,
-                  VS Code, Microsft SQL, Visual Studio, Terminals, IntelliJ, Jira, and NodeJS.
+                  VS Code, Microsft SQL, Postgres SQL, Visual Studio, Terminals, IntelliJ, Jira and Microsoft Power BI
+                  for data visualization. I have excelent skill for computer literacy and Office suite such as Word, 
+                  PowerPoint and Excel.
               </p>
               
               <Link to ="/contact" className = 'flat-button'> CONTACT ME </Link>
