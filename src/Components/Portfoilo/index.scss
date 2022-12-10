@@ -157,20 +157,20 @@ h1.page-title{
     }
 
     .container {
-        position: absolute;
+        position: initial;
         padding-bottom: 4%;
 
         &.portfolio-page {
-            width: 100%;
-            height: 140%;
             box-sizing: border-box;
             display: flex;
-            position: absolute;
+            position: initial;
             flex-direction: column;
             flex-wrap: wrap;
-            align-content: stretch;
+            align-content: normal;
             justify-content: center;
-            top:20%;
+            top: 35%;
+            padding: 0;
+            width: 80%;
       
             h1.page-title {
               margin-left: 20px;
