@@ -3,7 +3,7 @@ h1.page-title{
     font-family: 'Helvetica Neue';
     color: #fff;
     font-weight: 400;
-    margin-top: 40px;
+    //margin-top: 40px;
     position: relative;
     margin-bottom: 0px;
     left: 20px;
@@ -15,9 +15,8 @@ h1.page-title{
     padding-left: 100px;
     padding-right: 50px;
     width: calc(100% - 150px);
-    position: initial;
-    height: 0%;
-    overflow: auto;
+    position: relative;
+    overflow: hidden;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -141,7 +140,7 @@ h1.page-title{
 
     .container {
         position: relative;
-        left:4%;
+        
         padding-bottom: 4%;
 
         &.portfolio-page {
