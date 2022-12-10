@@ -1,13 +1,13 @@
 .stage-cube-cont {
   width: 50%;
-  height: 20%;
+  height: 100%;
   top: 0;
   padding-top: 20%;
   margin-left: 0;
   position: absolute;
   right: 0;
-  overflow: auto;
-  animation: backInUp 2s;;
+  overflow: hidden;
+  animation: backInUp 2s;
 }
   
 .cubespinner {
