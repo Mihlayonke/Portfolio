@@ -1,13 +1,27 @@
+.page {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 90%;
+    top:5%;
+}
+
 h1.page-title{
     font-size: 53px;
-    font-family: 'Helvetica Neue';
+    font-family: "Helvetica Neue";
     color: #fff;
     font-weight: 400;
-    //margin-top: 40px;
     position: relative;
-    margin-bottom: 0px;
-    left: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
 
   }
 
@@ -15,6 +29,7 @@ h1.page-title{
     padding-left: 100px;
     padding-right: 50px;
     width: calc(100% - 150px);
+    height: 100px;
     position: relative;
     overflow: hidden;
     display: flex;
