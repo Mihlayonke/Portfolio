@@ -148,16 +148,14 @@ h1.page-title{
 
 @media screen and (max-width: 1200px) {
 
-    .page{
-        position: initial;
-    }
+    
     h1.page-title {
         margin-top: 50px;
         margin-bottom: 20px;
     }
 
     .container {
-        position: initial;
+        
         padding-bottom: 4%;
 
         &.portfolio-page {
@@ -169,7 +167,7 @@ h1.page-title{
             align-content: normal;
             justify-content: center;
             top: 35%;
-            padding: 0;
+            padding-left: 50px;
             width: 80%;
       
             h1.page-title {
@@ -191,7 +189,6 @@ h1.page-title{
                 box-sizing: border-box;
                 top:15%;
                 left: 0%;
-                
                 
             }
         }
