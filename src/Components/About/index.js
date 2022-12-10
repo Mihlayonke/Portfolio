@@ -46,9 +46,8 @@ const About = () => {
                   idx={10} />
               </h1>
 
-              <p> I have obtained great knowledge and skills in software
-                  programming, web development, database management, operating systems, 
-                  and problem-solving during my undergraduate years, practice and self-taught.
+              <p> I have obtained great knowledge and skills in software Development,
+                  database management, and problem-solving during my undergraduate, practice and self-taught.
               </p>
 
               <p>
