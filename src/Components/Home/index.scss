@@ -55,13 +55,13 @@
 
     .home-page{
         position: relative;
-        width: 88%;
+        width: 100%;
         top: 10%;
         display: grid;
         align-content: center;
   
         .text-zone {
-          width: 90%;
+          width: 100%;
   
           h1{
             font-size: 40px;
@@ -70,7 +70,7 @@
         }
   
         .logo-container{
-          left: 3%;
+          left: 4%;
           position: relative;
         }
       }
