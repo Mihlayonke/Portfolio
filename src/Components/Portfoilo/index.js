@@ -87,7 +87,8 @@ const Portfolio = () => {
                         </a>
                     </div>
                 </div>
-                
+                <br/>
+                <br/>
                 <div className="image-box" ref={box2}>
                     <img 
                     src={Web_App}
@@ -103,7 +104,8 @@ const Portfolio = () => {
                         </a>
                     </div>
                 </div>
-                
+                <br/>
+                <br/>
                 <div className="image-box" ref={box3}>
                     <img 
                     src={Desktop}
