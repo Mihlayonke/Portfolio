@@ -81,15 +81,50 @@
   }
 }
 
-.contact-page{
-  .text-zone{
-    p{
-      font-family: 'Helvetica Neue', cursive; 
-      font-size: 14px;
-      
+.contact-page {
+    
+      h1 {
+        font-size: 53px;
+        font-family: 'Helvetica Neue';
+        color: #fff;
+        font-weight: 400;
+        margin-top: 30px;
+        position: relative;
+        text-align: center;
+  
+      }
+  
+      p {
+        font-size: 18px;
+        color: #fff;
+        padding: 2px;
+        font-family: 'Helvetica Neue';
+        font-weight: 300;
+        max-width: auto;
+        animation: pulse 1s;
+        &:nth-of-type(1) {
+          animation-delay: 2.0s;
+        }
+      }
+  
+    .text-zone {
+      position: absolute;
+      left: 10%;
+      top: 5%;
+      width: 50%;
+      vertical-align: middle;
+      display: table-cell;
+      max-height: 100%;
+      animation: fadeInLeft 2s;
+      padding-bottom: 3%;
+
+      p{
+        font-family: 'Helvetica Neue', cursive; 
+        font-size: 14px;
+        
+      }
     }
   }
-}
 
 .leaflet-container {
   position: relative;
@@ -134,12 +169,19 @@
   .container.contact-page h1{
     top:0%;
   }
-  .container.contact-page{
 
-    .text-zone{
-      top:10%;
+  .container.contact-page{
+    .text-zone {
+      position: relative;
+      transform: none;
+      width: 95%;
+      display: block;
+      padding: 20px;
+      box-sizing: border-box;
+      top:3%;
+      left: 4%;
+      
     }
-    
   }
   
   .map-wrap {

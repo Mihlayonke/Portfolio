@@ -51,3 +51,29 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+
+    .home-page{
+        position: relative;
+        width: 88%;
+        left: 10%;
+        top: 10%;
+        display: grid;
+        align-content: center;
+  
+        .text-zone {
+          width: 90%;
+  
+          h1{
+            font-size: 40px;
+            margin-top: 20px;
+          }
+        }
+  
+        .logo-container{
+          left: 3%;
+          position: relative;
+        }
+      }
+}
+
