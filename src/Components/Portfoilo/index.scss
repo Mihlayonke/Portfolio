@@ -150,10 +150,11 @@ h1.page-title{
 
     .page{
         position: initial;
+        display: block;
     }
     h1.page-title {
         margin-top: 50px;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
 
     .container {
@@ -171,6 +172,7 @@ h1.page-title{
             flex-wrap: wrap;
             align-content: stretch;
             justify-content: center;
+            top:20%;
       
             h1.page-title {
               margin-left: 20px;
