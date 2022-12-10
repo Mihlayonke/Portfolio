@@ -54,7 +54,7 @@ h1.page-title{
         overflow: hidden;
         border-radius: 10px;
         max-width: calc(33% - 10px);
-        animation: backInLeft 2s;
+        animation: backInLeft 2s 1s;
 
         .portfolio-image {
             position: absolute;
@@ -166,7 +166,7 @@ h1.page-title{
             padding: 20px;
             box-sizing: border-box;
             display: flex;
-            position: relative;
+            position: absolute;
             left: 10%;
             flex-direction: column;
             flex-wrap: wrap;
