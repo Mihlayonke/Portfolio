@@ -38,26 +38,20 @@
     }
 
   .text-zone {
-    position: absolute;
-    left: 10%;
-    top: 5%;
-    width: 50%;
+    position: relative;
+    left: 5%;
+    width: 55%;
     vertical-align: middle;
     display: table-cell;
-    max-height: 100%;
     animation: fadeInLeft 2s;
-    padding-bottom: 3%;
   }
 }
 
 .stage-cube-cont {
-  width: 50%;
-  height: 50%;
-  top: 0;
-  padding-top: 20%;
-  margin-left: 0;
-  position: absolute;
-  right: 0;
+  width: 30%;
+  left: 3%;
+  padding-top: 18%;
+  position: relative;
   overflow: hidden;
   animation: backInUp 2s;
 }

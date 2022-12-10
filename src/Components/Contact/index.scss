@@ -108,9 +108,8 @@
       }
   
     .text-zone {
-      position: absolute;
-      left: 10%;
-      top: 5%;
+      position: relative;
+      left: 3%;
       width: 50%;
       vertical-align: middle;
       display: table-cell;
@@ -130,10 +129,10 @@
 }
 
 .info-map {
-  position: absolute;
+  position: relative;
   background: #115173;
-  top: 34%;
-  right: 5%;
+  top: 190px;
+  left: 2%;
   width: 300px;
   height: 210px;
   padding: 30px;
@@ -169,12 +168,11 @@
     .text-zone {
       position: relative;
       transform: none;
-      width: 95%;
+      width: 100%;
       display: block;
       padding: 20px;
       box-sizing: border-box;
       top:3%;
-      left: 4%;
       
     }
   }

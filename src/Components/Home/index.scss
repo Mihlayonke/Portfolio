@@ -1,54 +1,54 @@
 .home-page{
 
   .text-zone {
-    position: relative;
-      width: 50%;
-      left: 7%;
-      display: table-cell;
-      vertical-align: middle; 
-      margin-top: 35px;
+        position: relative;
+        width: 50%;
+        left: 7%;
+        display: table-cell;
+        vertical-align: middle; 
+        margin-top: 35px;
 
-      h1{
-          color: #fff;
-          font-size: 50px;
-          margin-top: 10px;
-          font-family: 'Helvetica Neue' ;
-          font-weight: 400;
-      }
-  
-      h2 {
-          color:yellow;
-          font-family: 'Coolvetica';
-          letter-spacing: 2px;
-          font-size: 18px;
-          animation: fadeIn 5s;
-          font-weight: 300;
-      }
+        h1{
+            color: #fff;
+            font-size: 50px;
+            margin-top: 10px;
+            font-family: 'Helvetica Neue' ;
+            font-weight: 400;
+        }
 
-      .flat-button{
-          color:#fff;
-          font-size: 14px;
-          font-weight: 400;
-          letter-spacing: 3px;
-          font-family: sans-serif;
-          text-decoration: none;
-          padding: 19px 18px;
-          border: 1px solid yellow;
-          margin-top: 25px;
-          float: left;
-          animation: fadeIn 3.5s 3.5s backwards;
-          white-space: nowrap;
-          text-transform: uppercase;
-          font-weight: 700;
-  
-          &:hover{
-              background-color: yellow;
-              color: rgb(0, 0, 0);
-          }
-  
-      }
+        h2 {
+            color:yellow;
+            font-family: 'Coolvetica';
+            letter-spacing: 2px;
+            font-size: 18px;
+            animation: fadeIn 5s;
+            font-weight: 300;
+        }
 
-  }
+        .flat-button{
+            color:#fff;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 3px;
+            font-family: sans-serif;
+            text-decoration: none;
+            padding: 19px 18px;
+            border: 1px solid yellow;
+            margin-top: 25px;
+            float: left;
+            animation: fadeIn 3.5s 3.5s backwards;
+            white-space: nowrap;
+            text-transform: uppercase;
+            font-weight: 700;
+
+            &:hover{
+                background-color: yellow;
+                color: rgb(0, 0, 0);
+            }
+    
+        }
+
+    }
 }
 
 @media screen and (max-width: 1200px) {
