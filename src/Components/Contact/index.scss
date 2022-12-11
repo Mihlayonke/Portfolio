@@ -169,7 +169,7 @@
     .text-zone {
       position: relative;
       transform: none;
-      width: 97%;
+      width: 100%;
       display: block;
       box-sizing: border-box;
       top:2%;
@@ -190,6 +190,6 @@
     font-family: 'Helvetica Neue';
     top:15%;
     font-weight: 400;
-   
+    left:0%;
   }
 }
