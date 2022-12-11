@@ -128,7 +128,7 @@
   animation-fill-mode: forwards;
 }
 
-.info-map {
+.info {
     position: relative;
     background: #115173;
     top: 45px;
@@ -168,7 +168,7 @@
 
   .container.contact-page{
 
-    padding-bottom: 3%;
+    padding-bottom: 5%;
     .text-zone {
       position: relative;
       transform: none;
@@ -196,16 +196,8 @@
 
     
   }
-  
-  .map-wrap {
-    float: none;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    padding-bottom: 2%;
-  }
-  
-  .info-map {
+
+  .info {
     position: relative;
     font-family: 'Helvetica Neue';
     top:15%;

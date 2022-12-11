@@ -85,7 +85,7 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <div className="info-map">
+        <div className="info">
 
           Current Address:
           <br />
