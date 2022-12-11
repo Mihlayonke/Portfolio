@@ -190,11 +190,8 @@
           flex-direction: column;
       
         }
-        
       }
-    }
-
-    
+    } 
   }
 
   .info {
@@ -204,5 +201,6 @@
     font-weight: 400;
     left:0%;
     padding: 25px;
+    padding-bottom: inherit;
   }
 }

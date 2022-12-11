@@ -98,12 +98,12 @@ const Contact = () => {
            South Africa
            <br />
             <br />
-            E-mail: mihlatembe@outlook.com
+            E-mail: mihlatembe@outlook.com 
             <br />
-            Phone: (+27) 72 178 7779
+            Phone: (+27) 72 178 7779 
             <br />
             <br />
-            "(Point here to see my photo)"
+            "Point here to see my photo". . . 👆
             <br/>
         </div> 
 
