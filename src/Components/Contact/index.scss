@@ -176,7 +176,23 @@
       top:2%;
       left: 0%;
       padding: 20px;
+
+      .contact-form{
+
+        .button-zone{
+          display: flex;
+          flex-wrap: nowrap;
+          align-content: center;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+      
+        }
+        
+      }
     }
+
+    
   }
   
   .map-wrap {

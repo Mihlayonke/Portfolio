@@ -73,9 +73,13 @@ const About = () => {
                   for data visualization. I have excelent skill for computer literacy and Office suite such as Word, 
                   PowerPoint and Excel.
               </p>
-              
-              <Link to ="/contact" className = 'flat-button'> CONTACT ME </Link>
 
+              <div className='button-zone'>
+
+                <Link to ="/contact" className = 'flat-button'> CONTACT ME </Link>
+ 
+              </div>
+ 
             <div/>
           </div>
 
