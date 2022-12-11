@@ -161,7 +161,7 @@
 
     .stage-cube-cont {
       position: initial;
-      width: 100%;
+      width: 50%;
       height: 100%;
       overflow: visible;
       padding-top: 15%;
@@ -173,11 +173,12 @@
       .text-zone {
         position: relative;
         transform: none;
-        width: 100%;
+        width: 98%;
         height: 100%;
         display: block;
         box-sizing: border-box;
         top:15%;
+        left: 0%;
       }
     }
   }
