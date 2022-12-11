@@ -26,7 +26,7 @@ const Portfolio = () => {
           },
           {
             opacity: 1,
-            delay: 1.5,
+            delay: 2,
           }
           
         )
@@ -38,7 +38,7 @@ const Portfolio = () => {
           },
           {
             opacity: 1,
-            delay: 1.5,
+            delay: 2,
           }
           
         )
@@ -50,7 +50,7 @@ const Portfolio = () => {
           },
           {
             opacity: 1,
-            delay: 1.5,
+            delay: 2,
           }
           
         )
