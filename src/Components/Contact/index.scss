@@ -88,7 +88,7 @@
         font-family: 'Helvetica Neue';
         color: #fff;
         font-weight: 400;
-        margin-top: 30px;
+        //margin-top: 30px;
         position: relative;
         text-align: center;
   
@@ -108,14 +108,14 @@
       }
   
     .text-zone {
-      position: relative;
-      left: 3%;
+      //position: relative; */
+      /* left: 3%; */
       width: 50%;
       vertical-align: middle;
       display: table-cell;
-      max-height: 100%;
+      /* max-height: 100%; */
       animation: fadeInLeft 2s;
-      padding-bottom: 3%;
+      // padding-bottom: 3%;
 
     }
   }
@@ -129,23 +129,23 @@
 }
 
 .info-map {
-  position: relative;
-  background: #115173;
-  top: 190px;
-  left: 2%;
-  width: 300px;
-  height: 210px;
-  padding: 30px;
-  color: yellow;
-  font-family: 'Helvetica Neue';
-  font-size: 20px;
-  font-weight: 550;
-  opacity: 0;
-  animation: fadeInRight 2s 2s;
-  animation-fill-mode: forwards;
-  border: 2px solid rgb(0, 0, 0);
-  border-radius: 12px;
-  cursor: pointer;
+    position: relative;
+    background: #115173;
+    top: 45px;
+    /* left: 2%; */
+    width: 300px;
+    height: 210px;
+    padding: 30px;
+    color: yellow;
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    font-weight: 550;
+    opacity: 0;
+    animation: fadeInRight 2s 2s;
+    animation-fill-mode: forwards;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    cursor: pointer;
 
   &:hover{
     background-image: url('../../../src/assets/images/Mihla.jpg');
@@ -162,7 +162,8 @@
 @media screen and (max-width: 1200px) {
   
   .container.contact-page h1{
-    top:0%;
+    margin: 0%;
+    font-size: 45px;
   }
 
   .container.contact-page{

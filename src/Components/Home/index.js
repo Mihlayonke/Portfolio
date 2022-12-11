@@ -34,7 +34,11 @@ const Home = () => {
                     <AnimatedLetters lettersClass={lettersClass} strArray={arrayMore} idx={85}/> 
                 </h2>
 
-                <Link to ="/about" className = 'flat-button'> ABOUT ME </Link>
+                <div className='button-zone'>
+
+                    <Link to ="/about" className = 'flat-button'> ABOUT ME </Link>
+                
+                </div>
             </div>
 
             <Logo/>

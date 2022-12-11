@@ -1,18 +1,20 @@
 .home-page{
 
+    
+
   .text-zone {
-        position: relative;
-        width: 50%;
-        left: 7%;
-        display: table-cell;
-        vertical-align: middle; 
-        margin-top: 35px;
+    position: relative;
+    width: 50%;
+    left: 5%;
+    display: table-cell;
+    vertical-align: middle;
+    // margin-top: 35px;
 
         h1{
             color: #fff;
             font-size: 50px;
-            margin-top: 10px;
-            font-family: 'Helvetica Neue' ;
+            //margin-top: 25px;
+            font-family: "Helvetica Neue";
             font-weight: 400;
         }
 
@@ -63,12 +65,26 @@
         .text-zone {
           width: 100%;
           left: 0%;
-          padding: 15px;
+          padding: 14px;
 
           h1{
-            font-size: 35px;
-            margin-top: 20px;
+            font-size: 34px;
+            text-align: center;
           }
+
+          h2 {
+            text-align: center;
+          }
+
+          .button-zone{
+            display: flex;
+            flex-wrap: nowrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+        }
         }
   
         .logo-container{
