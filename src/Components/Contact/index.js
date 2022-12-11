@@ -104,6 +104,7 @@ const Contact = () => {
             <br />
             <br />
             "(Point here to see my photo)"
+            <br/>
         </div> 
 
       </div>
