@@ -59,14 +59,16 @@ const Portfolio = () => {
     
     return (
         <>
-            <div >
-                <h1 className="page-title"> 
-                <AnimatedLetters
+            <div className="page-header">
+                <h1 > 
+                    <AnimatedLetters
                         letterClass={letterClass}
                         strArray={"Projects".split("")}
                         idx={15}/>
                  </h1>
-
+                  <p>
+                    These are my projects...
+                  </p>
                 
             </div>
 

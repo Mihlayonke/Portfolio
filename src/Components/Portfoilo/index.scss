@@ -1,24 +1,45 @@
+.page-header{
 
-h1.page-title{
-    font-size: 52px;
-    font-family: "Helvetica Neue";
-    color: #fff;
-    font-weight: 400;
-    position: relative;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: center;
-    align-content: center;
-    animation: fadeInLeft 2s;
+    animation: backInLeft 2.5s;
+    margin-top: 6%;
 
-  }
+    h1{
+        font-size: 52px;
+        font-family: "Helvetica Neue";
+        color: #fff;
+        font-weight: 400;
+        position: relative;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+
+    }
+
+    p {
+        font-size: 18px;
+        color: #fff;
+        padding: 2px;
+        font-family: 'Helvetica Neue';
+        font-weight: 300;
+        max-width: auto;
+        padding-left: 5%;
+        animation: pulse 1s;
+        &:nth-of-type(1) {
+          animation-delay: 2.0s;
+        }
+    }
+}
+
+
+
 
 .portfolio-page {
     width: calc(100% - 50px);
-    height: 70%;
+    height: 55%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -40,7 +61,6 @@ h1.page-title{
         height: 350px;
         overflow: hidden;
         border-radius: 10px;
-        
         animation: backInLeft 2.5s;
 
         .portfolio-image {
