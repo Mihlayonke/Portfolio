@@ -60,8 +60,6 @@
 
 .stage-cube-cont {
     width: 30%;
-    /* left: 3%; */
-    /* top: 1%; */
     padding-bottom: 15%;
     position: relative;
     animation: backInUp 2s;
@@ -170,7 +168,6 @@
   @media screen and (max-width: 1200px) {
 
     .stage-cube-cont {
-      //position: initial;
       width: 50%;
       height: 100%;
       overflow: visible;

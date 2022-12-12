@@ -88,7 +88,6 @@
         font-family: 'Helvetica Neue';
         color: #fff;
         font-weight: 400;
-        //margin-top: 30px;
         position: relative;
         text-align: center;
   
@@ -108,14 +107,10 @@
       }
   
     .text-zone {
-      //position: relative; */
-      /* left: 3%; */
       width: 50%;
       vertical-align: middle;
       display: table-cell;
-      /* max-height: 100%; */
       animation: fadeInLeft 2s;
-      // padding-bottom: 3%;
 
     }
   }
@@ -132,7 +127,6 @@
     position: relative;
     background: #115173;
     top: 45px;
-    /* left: 2%; */
     width: 300px;
     height: 210px;
     padding: 30px;
