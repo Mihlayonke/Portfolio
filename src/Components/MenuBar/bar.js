@@ -1,4 +1,4 @@
-import './index.scss';
+import './bar.scss';
 import { Link , NavLink} from 'react-router-dom';
 import Logo from '../../assets/images/Logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

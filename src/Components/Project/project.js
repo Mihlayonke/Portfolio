@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap-trial'
-import AnimatedLetters from "../AnimatedLetters";
-import "./index.scss";
+import AnimatedLetters from "../Animation/animation";
+import "./project.scss";
 import Logo from '../../../src/assets/images/Logo.png';
 import Web_App from '../../../src/assets/images/Pharmacy Web.jpeg';
 import Desktop from '../../../src/assets/images/Desktop_App.jpeg';

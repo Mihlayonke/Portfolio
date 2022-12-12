@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import AnimatedLetters from '../AnimatedLetters';
-import './index.scss';
+import AnimatedLetters from '../Animation/animation';
+import './about.scss';
 import React from 'react';
 import { 
     faAngular,

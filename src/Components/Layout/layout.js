@@ -1,12 +1,12 @@
 import { Outlet } from 'react-router-dom';
-import Sidebar from '../Sidebar';
-import './index.scss';
+import Menu from '../MenuBar/bar';
+import './layout.scss';
 import React from 'react';
 
 const Layout = () => {
     return (
     <div className='App'> 
-        <Sidebar/> 
+        <Menu/> 
         
     <div className='page'>
         

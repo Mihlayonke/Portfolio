@@ -1,9 +1,9 @@
-import './index.scss';
+import './home.scss';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import AnimatedLetters from '../AnimatedLetters';
+import AnimatedLetters from '../Animation/animation';
 import React from 'react';
-import Logo from './Logo'
+import Logo from './Logo/logo'
 
 const Home = () => {
 

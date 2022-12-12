@@ -1,8 +1,8 @@
 import {  useState } from 'react'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
-import AnimatedLetters from '../AnimatedLetters'
-import './index.scss'
+import AnimatedLetters from '../Animation/animation'
+import './contact.scss'
 
 
 const Contact = () => {
