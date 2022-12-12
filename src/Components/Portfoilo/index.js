@@ -6,7 +6,7 @@ import "./index.scss";
 import Logo from '../../../src/assets/images/Logo.png';
 import Web_App from '../../../src/assets/images/Pharmacy Web.jpeg';
 import Desktop from '../../../src/assets/images/Desktop_App.jpeg';
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 const Portfolio = () => { 
@@ -137,7 +137,7 @@ const Portfolio = () => {
                           <br/>
                           <br/>
                           It was an academic groung project where I was a groung leader. It was build using 
-                          ASP.Net MVC with C#, and SQL. It was programmed on Microsoft Visual Studio 2019 and Microsft SQL Server 2019.
+                          ASP.Net MVC with C#, and SQL. It was programmed on Microsoft Visual Studio 2019 and SQL Server.
                           <br/>
                           <br/>
                           Date: 02/2021 - 05/2021
@@ -150,10 +150,15 @@ const Portfolio = () => {
                 </div>
             </div>
 
+            <div className='button1-zone'>
+
+              <Link to ="/contact" className = 'flat-button'> CONTACT ME </Link>
+
+            </div>
+
           <div>
                  
-      </div>
-           
+      </div>   
             
     </>
   );

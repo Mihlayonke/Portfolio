@@ -1,7 +1,7 @@
 .page-header{
 
     animation: backInLeft 2.5s;
-    margin-top: 6%;
+    margin-top: 5%;
 
     h1{
         font-size: 52px;
@@ -32,9 +32,19 @@
     }
 }
 
+.button1-zone{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0px 30px 30px;
+    }
+
 .portfolio-page {
     width: calc(100% - 50px);
-    height: 55%;
+    height: 50%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -166,6 +176,11 @@
             font-size: 45px;
         }
     }
+
+    .button1-zone{
+        justify-content: center;
+        
+        }
 
     .container {
         
