@@ -72,13 +72,13 @@ const Achievement = () => {
                 
             </div>
 
-            <div className="container portfolio-page" >
+            <div className="container achievement-page" >
                 
                 <div className="image-box" ref={box1}>
                     <img 
                     src={Certificate1}
-                    className="portfolio-image"
-                    alt="portfolio" />
+                    className="certificate-image"
+                    alt="certificate" />
                     
                     <div className="content">
                         <p className="title">JavaScrip Certificate</p>
@@ -102,8 +102,8 @@ const Achievement = () => {
                 <div className="image-box" ref={box2}>
                     <img 
                     src={Certificate2}
-                    className="portfolio-image"
-                    alt="portfolio" />
+                    className="certificate-image"
+                    alt="certificate" />
                     
                     <div className="content">
                         <p className="title">Degree Statement</p>
