@@ -67,7 +67,7 @@ const Portfolio = () => {
                         idx={15}/>
                  </h1>
                   <p>
-                    These are my personal projects and academic projects. You can know more about them and view the source code too on my Github.
+                    These are my personal projects and academic projects. You can know more about them and view the source code on my Github.
                     Point to project card to review more infor about the project.
                   </p>
                 
@@ -94,7 +94,7 @@ const Portfolio = () => {
                         </h4>
 
                         <a target= "_blank" rel="noreferrer" href='https://github.com/Mihlayonke/Portfolio'>
-                            <button className="btn"> View Source Code </button>
+                            <button className="btn"> View Code </button>
                         </a>
                     </div>
                 </div>
@@ -119,7 +119,7 @@ const Portfolio = () => {
                         </h4>
 
                        <a target= "_blank" rel="noreferrer" href="https://github.com/Mihlayonke/Varsity_Phamarcy_Web">
-                            <button className="btn"> View Source Code </button>
+                            <button className="btn"> View Code </button>
                         </a>
                     </div>
                 </div>
@@ -144,7 +144,7 @@ const Portfolio = () => {
                         </h4>
 
                        <a target= "_blank" rel="noreferrer" href="https://github.com/Mihlayonke/Varsity_Pharmacy_Windows_Form/">
-                            <button className="btn"> View Source Code </button>
+                            <button className="btn"> View Code </button>
                         </a>
                     </div>
                 </div>
