@@ -90,6 +90,12 @@
             content: 'PROJECT';
           }
         }
+        
+        a.achievement-link {
+          &::after {
+            content: 'ACHIEVE';
+          }
+        }
     
         a.active {
           svg {

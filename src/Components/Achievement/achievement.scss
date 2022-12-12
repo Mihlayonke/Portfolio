@@ -1,0 +1,220 @@
+.page-header{
+
+    animation: fadeInLeft 2.5s;
+    margin-top: 5%;
+
+    h1{
+        font-size: 52px;
+        font-family: "Helvetica Neue";
+        color: #fff;
+        font-weight: 400;
+        position: relative;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+
+    }
+
+    p {
+        font-size: 18px;
+        color: #fff;
+        padding: 0px 30px 0px;
+        font-family: "Helvetica Neue";
+        font-weight: 300;
+        animation: pulse 1s;
+        &:nth-of-type(1) {
+          animation-delay: 2.1s;
+        }
+    }
+}
+
+.button1-zone{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0px 30px 30px;
+    }
+
+.portfolio-page {
+    width: calc(100% - 50px);
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: stretch;
+    gap: 20px;
+
+    .images-container {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        padding-bottom: 100px;
+    }
+
+    .image-box {
+        position: relative;
+        flex: 1 1 20%;
+        height: 350px;
+        overflow: hidden;
+        border-radius: 10px;
+        animation: backInLeft 3.5s;
+
+        .portfolio-image {
+            position: absolute;
+            z-index: 2;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            
+        }
+
+        .content {
+            position: absolute;
+            width: 93%;
+            z-index: 3;
+            padding: 10px 20px;
+            transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+            background: linear-gradient(
+                180deg,
+                rgba(0, 0, 0, 0.7) 0,
+                rgba(0, 0, 0, 1)
+            );
+            bottom: -190px;
+
+        }
+
+        .title {
+            margin-bottom: 0;
+            margin-top: 0;
+            color: yellow;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 24px;
+            font-family: 'Helvetica';
+            text-align: center;
+
+            
+        }
+
+        .description {
+            font-size: 14px;
+            margin: 6px;
+            color: #fff;
+            font-weight: 600;
+            font-family: 'Helvetica';
+
+            &:hover {
+                color: #000;
+            }
+        }
+
+        .btn {
+            margin-top: 30px;
+            height: 30px;
+            margin-bottom: 10px;
+            padding: 0 23px;
+            height: 50px;
+            line-height: 34px;
+            border: 1px solid yellow;
+            border-radius: 4px;
+            font-size: 14px;
+            color: #fff;
+            background: transparent;
+            text-transform: uppercase;
+            font-weight: 700;
+            transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            background-color: yellow;
+            color: rgb(0, 0, 0);
+        }
+
+        &:after {
+            content: "";
+            background: linear-gradient(180deg, rgb(185, 185, 185), #000);
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 2;
+            transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+            opacity: 0;
+        }
+
+        &:hover:after {
+            opacity: 0.85;
+        }
+
+        &:hover .content {
+            bottom: 0;
+            background: transparent;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .page-header{
+        h1 {
+            margin-top: 20px;
+            margin-bottom: 0px;
+            font-size: 45px;
+        }
+    }
+
+    .button1-zone{
+        justify-content: center;
+        
+        }
+
+    .container {
+        
+        &.portfolio-page {
+            box-sizing: border-box;
+            display: flex;
+            width: 100%;
+            height: 130vh;
+            gap: 15px;
+            overflow: visible;
+            padding: 30px;
+            flex-direction: column;
+
+            h1.page-title {
+              margin-left: 30px;
+              margin-top: 30px;
+            }
+      
+            .image-box {
+              height: 300px;
+              width:90%;
+
+            }
+
+            .text-zone {
+                position: absolute;
+                transform: none;
+                width: 100%;
+                height: 100%;
+                display: contents;
+                box-sizing: border-box;
+                top:15%;
+                
+            }
+        }
+    }
+}
