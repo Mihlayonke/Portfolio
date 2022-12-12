@@ -108,7 +108,7 @@ const Portfolio = () => {
                     <div className="content">
                         <p className="title">Pharmacy Web App</p>
                         <h4 className="description">
-                          This is a website for a varsity pharmacy store. 
+                          This is a website for a varsity pharmacy. 
                           <br/>
                           <br/>
                           It was an academic groung project where I was a groung leader. It was build using 
@@ -133,7 +133,7 @@ const Portfolio = () => {
                     <div className="content">
                         <p className="title">Pharmacy Desktop App</p>
                         <h4 className="description">
-                          This is a desktop app for a varsity pharmacy store. 
+                          This is a desktop app for varsity a pharmacy. 
                           <br/>
                           <br/>
                           It was an academic groung project where I was a groung leader. It was build using 
