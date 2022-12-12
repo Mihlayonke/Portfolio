@@ -79,7 +79,7 @@
 
         .content {
             position: absolute;
-            width: 90%;
+            width: 93%;
             z-index: 3;
             padding: 10px 20px;
             transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -88,7 +88,7 @@
                 rgba(0, 0, 0, 0.7) 0,
                 rgba(0, 0, 0, 1)
             );
-            bottom: -185px;
+            bottom: -190px;
 
         }
 
@@ -201,7 +201,7 @@
       
             .image-box {
               height: 300px;
-              width:100%;
+              width:90%;
 
             }
 
