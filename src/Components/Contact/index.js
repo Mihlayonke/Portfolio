@@ -87,23 +87,23 @@ const Contact = () => {
         </div>
         <div className="info">
 
-          Current Address:
+          ▸Current Address:
           <br />
-           Table View,
+           -  Table View,
           <br />
-           Cape Town, 
+           -  Cape Town, 
            <br />
-           Western Cape, 
+           -  Western Cape, 
            <br />
-           South Africa
+           -  South Africa
            <br />
             <br />
-            E-mail: mihlatembe@outlook.com 
+            ▸E-mail: mihlatembe@outlook.com 
             <br />
-            Phone: (+27) 72 178 7779 
+            ▸Phone: (+27) 72 178 7779 
             <br />
             <br />
-            "Point here to see my photo"... 👆
+            ▸"Point here to see my photo"... 👆
             <br/>
         </div> 
 
