@@ -83,7 +83,7 @@ const Portfolio = () => {
                     
                     <div className="content">
                         <p className="title">My Website</p>
-                        <h4 className="description">This is a website of my portfolio that you are currently vising. 
+                        <h4 className="description">This is my website that you are currently vising. 
                           <br/>
                           <br/>
                           It was build my me using React framework, JavaScrip, SCSS, HTML, and it then deployed 

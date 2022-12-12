@@ -79,6 +79,7 @@
                 rgba(0, 0, 0, 1)
             );
             bottom: -185px;
+
         }
 
         .title {
@@ -90,6 +91,8 @@
             line-height: 24px;
             font-family: 'Helvetica';
             text-align: center;
+
+            
         }
 
         .description {
@@ -130,7 +133,7 @@
 
         &:after {
             content: "";
-            background: linear-gradient(180deg, #fff, #000);
+            background: linear-gradient(180deg, rgb(185, 185, 185), #000);
             position: absolute;
             left: 0;
             right: 0;
