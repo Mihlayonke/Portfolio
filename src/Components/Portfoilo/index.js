@@ -137,7 +137,7 @@ const Portfolio = () => {
                           <br/>
                           <br/>
                           It was an academic groung project where I was a groung leader. It was build using 
-                          ASP.Net MVC with C#, and SQL. It was programmed on Microsoft Visual Studio 2019.
+                          ASP.Net MVC with C#, and SQL. It was programmed on Microsoft Visual Studio 2019 and Microsft SQL Server 2019.
                           <br/>
                           <br/>
                           Date: 02/2021 - 05/2021
