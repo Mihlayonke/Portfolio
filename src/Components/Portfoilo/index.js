@@ -83,7 +83,9 @@ const Portfolio = () => {
                     
                     <div className="content">
                         <p className="title">Mihla's Portfoilo</p>
-                        <h4 className="description">This is portfolio projects that you are currently on it.</h4>
+                        <h4 className="description">This is portfolio projects that you are currently on it. It was build my me using React framework,
+                            JavaScrip, SCSS, HTML, and it then deployed it by hosting on Firebase. It was programmed on Microsft Visual Code 2022.
+                        </h4>
 
                         <a target= "_blank" rel="noreferrer" href='https://github.com/Mihlayonke/Portfolio'>
                             <button className="btn"> View Source Code </button>
@@ -99,7 +101,11 @@ const Portfolio = () => {
                     
                     <div className="content">
                         <p className="title">Varsity Pharmacy Web App</p>
-                        <h4 className="description">This is a website for a pharmacy store</h4>
+                        <h4 className="description">
+                          This is a website for a pharmacy store. It was an academic groung project where I was a groung leader. It was build using 
+                          ASP.Net Core with C#, JavaScrip, HTML5, and CSS3. It was programmed on Microsoft Visual Studio 2019.
+                        
+                        </h4>
 
                        <a target= "_blank" rel="noreferrer" href="https://github.com/Mihlayonke/Varsity_Phamarcy_Web">
                             <button className="btn"> View Source Code </button>
@@ -115,7 +121,10 @@ const Portfolio = () => {
                     
                     <div className="content">
                         <p className="title">Varsity Pharmacy Desktop App</p>
-                        <h4 className="description">This is a POS desktop app for a pharmacy store.</h4>
+                        <h4 className="description">This is a POS desktop app for a pharmacy store. It was an academic groung project where I was a groung leader. It was build using 
+                          ASP.Net MVC with C#, and SQL. It was programmed on Microsoft Visual Studio 2019.
+                        
+                        </h4>
 
                        <a target= "_blank" rel="noreferrer" href="https://github.com/Mihlayonke/Varsity_Pharmacy_Windows_Form/">
                             <button className="btn"> View Source Code </button>
@@ -124,13 +133,13 @@ const Portfolio = () => {
                 </div>
             </div>
 
-            <div>
+          <div>
                  
-            </div>
+      </div>
            
             
-        </>
-    );
+    </>
+  );
 }
 
 
