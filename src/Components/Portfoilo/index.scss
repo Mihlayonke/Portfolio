@@ -22,20 +22,15 @@
     p {
         font-size: 18px;
         color: #fff;
-        padding: 2px;
-        font-family: 'Helvetica Neue';
+        padding: 0px 30px 0px;
+        font-family: "Helvetica Neue";
         font-weight: 300;
-        max-width: auto;
-        padding-left: 5%;
         animation: pulse 1s;
         &:nth-of-type(1) {
           animation-delay: 2.0s;
         }
     }
 }
-
-
-
 
 .portfolio-page {
     width: calc(100% - 50px);
