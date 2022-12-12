@@ -106,8 +106,8 @@ const Achievement = () => {
                     alt="portfolio" />
                     
                     <div className="content">
-                        <p className="title">Degree Certificate</p>
-                        <h4 className="description">This is my Bachelor's Degree Certificate. 
+                        <p className="title">Degree Statement</p>
+                        <h4 className="description">This is my Bachelor's Degree Statement. 
                           <br/>
                           <br/>
                             It was obtained on 2021 when I completed my Bachelor's Degree in Computer Science and Information Technology
