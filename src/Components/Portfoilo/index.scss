@@ -78,7 +78,7 @@
                 rgba(0, 0, 0, 0.7) 0,
                 rgba(0, 0, 0, 1)
             );
-            bottom: -153px;
+            bottom: -185px;
         }
 
         .title {
@@ -96,8 +96,12 @@
             font-size: 14px;
             margin: 6px;
             color: #fff;
-            font-weight: 500;
+            font-weight: 600;
             font-family: 'Helvetica';
+
+            &:hover {
+                color: #000;
+            }
         }
 
         .btn {
