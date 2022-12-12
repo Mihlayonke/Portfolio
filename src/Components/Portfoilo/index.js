@@ -67,7 +67,7 @@ const Portfolio = () => {
                         idx={15}/>
                  </h1>
                   <p>
-                    These are my personal projects and academic projects. You can know more about them and view the source code on my Github.
+                    These are my personal projects and academic projects. You can view the source code on my Github.
                     Point to project card to review more infor about the project.
                   </p>
                 
