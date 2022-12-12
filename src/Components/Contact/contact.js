@@ -93,9 +93,9 @@ const Contact = () => {
           <br />
            -  Cape Town, 
            <br />
-           -  Western Cape, 
+           -  Western Cape, South Africa
            <br />
-           -  South Africa
+           -  7441
            <br />
             <br />
             ▸E-mail: mihlatembe@outlook.com 
