@@ -81,7 +81,7 @@ const Achievement = () => {
                     alt="certificate" />
                     
                     <div className="content_">
-                        <p className="title_">JavaScrip Certificate</p>
+                        <p className="title_">Developer Certificate</p>
                         <h4 className="description_">This is my Developer Certificate. 
                           <br/>
                           <br/>
