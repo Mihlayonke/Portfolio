@@ -76,7 +76,7 @@ const About = () => {
 
               <div className='button-zone'>
 
-                <Link to ="/contact" className = 'flat-button'> CONTACT ME </Link>
+                <Link to ="/project" className = 'flat-button'> MY PROJECTS </Link>
  
               </div>
  
