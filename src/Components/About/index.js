@@ -68,8 +68,8 @@ const About = () => {
               </p>
                   
               <p>
-                  I have a knowledge and experience with using the following tools: Github, Git,
-                  VS Code, Microsft SQL, Postgres SQL, Visual Studio, Terminals, IntelliJ, Jira and Microsoft Power BI
+                  I have a knowledge and experience with using the following tools: Github,
+                  VS Code, Microsft SQL, Postgres SQL, Visual Studio, Terminals, IntelliJ, PyCharm, Jira for collaboration and Microsoft Power BI
                   for data visualization. I have excelent skill for computer literacy and Office suite such as Word, 
                   PowerPoint and Excel.
               </p>
