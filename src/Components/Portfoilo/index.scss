@@ -1,6 +1,6 @@
 .page-header{
 
-    animation: backInLeft 2.5s;
+    animation: fadeInLeft 2.5s;
     margin-top: 5%;
 
     h1{
@@ -66,7 +66,7 @@
         height: 350px;
         overflow: hidden;
         border-radius: 10px;
-        animation: backInLeft 2.5s;
+        animation: backInLeft 3.5s;
 
         .portfolio-image {
             position: absolute;
