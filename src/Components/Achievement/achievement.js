@@ -74,15 +74,15 @@ const Achievement = () => {
 
             <div className="container achievement-page" >
                 
-                <div className="image-box" ref={box1}>
+                <div className="image-box_" ref={box1}>
                     <img 
                     src={Certificate1}
                     className="certificate-image"
                     alt="certificate" />
                     
-                    <div className="content">
-                        <p className="title">JavaScrip Certificate</p>
-                        <h4 className="description">This is my Developer Certificate. 
+                    <div className="content_">
+                        <p className="title_">JavaScrip Certificate</p>
+                        <h4 className="description_">This is my Developer Certificate. 
                           <br/>
                           <br/>
                             It was obtained on freeCodeCamp where I completed some projects focusing of Javascript Algorithms
@@ -99,15 +99,15 @@ const Achievement = () => {
                     </div>
                 </div>
 
-                <div className="image-box" ref={box2}>
+                <div className="image-box_" ref={box2}>
                     <img 
                     src={Certificate2}
                     className="certificate-image"
                     alt="certificate" />
                     
-                    <div className="content">
-                        <p className="title">Degree Statement</p>
-                        <h4 className="description">This is my Bachelor's Degree Statement. 
+                    <div className="content_">
+                        <p className="title_">Degree Statement</p>
+                        <h4 className="description_">This is my Bachelor's Degree Statement. 
                           <br/>
                           <br/>
                             It was obtained on 2021 when I completed my Bachelor's Degree in Computer Science and Information Technology
