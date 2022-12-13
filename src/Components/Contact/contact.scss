@@ -62,7 +62,7 @@
     font-weight: 400;
     letter-spacing: 3px;
     font-family: sans-serif;
-    border: 1px solid yellow;
+    border: 1px solid black;
     text-decoration: none;
     padding: 19px 18px;
     margin-top: 25px;
@@ -72,10 +72,12 @@
     cursor: pointer;
     text-transform: uppercase;
     font-weight: 700;
+    background-color: white;
+    color: black;
   
     &:hover{
       background-color: yellow;
-      color: rgb(0, 0, 0);
+      
     }
 
   }

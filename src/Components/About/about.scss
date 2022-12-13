@@ -122,24 +122,24 @@
 }
 
 .flat-button{
-  color:#fff;
+  color:black;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 3px;
   font-family: sans-serif;
   text-decoration: none;
   padding: 19px 18px;
-  border: 1px solid yellow;
+  border: 1px solid black;
   margin-top: 25px;
   float: left;
-  animation: fadeIn 2s 3.5s backwards;
+  animation: fadeIn 3.5s 3.5s backwards;
   white-space: nowrap;
   text-transform: uppercase;
   font-weight: 700;
+  background-color: white;
 
   &:hover{
-    background-color: yellow;
-    color: rgb(0, 0, 0);
+      background-color: yellow;
   }
 }
   
