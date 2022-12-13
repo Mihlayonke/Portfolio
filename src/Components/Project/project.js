@@ -152,7 +152,7 @@ const Portfolio = () => {
 
             <div className='button1-zone'>
 
-              <Link to ="/achievement" className = 'flat-button'> MY ACHIEVEMENTS </Link>
+              <Link to ="/contact" className = 'flat-button'> CONTACT ME </Link>
 
             </div>
 
