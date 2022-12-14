@@ -86,7 +86,7 @@ const Portfolio = () => {
                         <h4 className="description">This is my website that you are currently vising. 
                           <br/>
                           <br/>
-                          It was build by me using React framework, JavaScrip, SCSS, HTML, and it then deployed 
+                          It was built by me using React library, JavaScrip, SCSS, HTML, and it then deployed 
                           it by hosting on Firebase. It was programmed on Microsft Visual Code 2022.
                           <br/>
                           <br/>
