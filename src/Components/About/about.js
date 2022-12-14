@@ -59,19 +59,20 @@ const About = () => {
                   I know Computer Science fundamentals such as Computer Architecture, Data Structures, 
                   Algorithms, and Databases. I know methodologies such as System Development 
                   Life Cycle focusing on Agile Development. I use Object-Oriented Programming pagradigm 
-                  and other important programming practices when I program.
+                  and other important programming practices when I'm programming.
               </p>
 
               <p>
                   I have skills and experience with the following languages: Java, C#, Python, 
-                  JavaScrip, TypeScrip, HTML5, CSS3, and SQL including frameworks and libraries such as ASP.Net CORE & MVC, Angular2+, and React.
+                  JavaScrip, TypeScrip, HTML5, CSS3, and SQL including frameworks and libraries such as 
+                  ASP.Net CORE & MVC, Angular2+, and React.
               </p>
                   
               <p>
                   I have a knowledge and experience with using the following tools: Github,
-                  VS Code, Microsft SQL, Postgres SQL, Visual Studio, Terminals, IntelliJ, PyCharm, Jira for collaboration and Microsoft Power BI
-                  for data visualization. I have excelent skill for computer literacy and Office suite such as Word, 
-                  PowerPoint and Excel.
+                  VS Code, Microsft SQL, Postgres SQL, Visual Studio, Terminals, IntelliJ, PyCharm, Jira for 
+                  collaboration and Microsoft Power BI for data visualization and analysis. I have excelent skill of 
+                  computer literacy and Office Suite such as Word, PowerPoint and Excel.
               </p>
 
               <div className='button-zone'>
