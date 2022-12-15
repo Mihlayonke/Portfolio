@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap-trial'
-import AnimatedLetters from "../Animation/animation";
 import "./achievement.scss";
 import Certificate1 from '../../../src/assets/images/JSCertificate.jpeg';
 import Certificate2 from '../../../src/assets/images/Degree.jpg';
@@ -9,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 
 const Achievement = () => { 
-    const [letterClass] = useState('text-animate');
+    
 
     const box1 = useRef()
     const box2 = useRef()
@@ -60,10 +59,7 @@ const Achievement = () => {
         <>
             <div className="page-header">
                 <h1 > 
-                    <AnimatedLetters
-                        letterClass={letterClass}
-                        strArray={"Achievements".split("")}
-                        idx={15}/>
+                    Achievements
                  </h1>
                   <p>
                     These are my certificates from University and online BootCamps. You can view the source of the certification.

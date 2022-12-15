@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import AnimatedLetters from '../Animation/animation';
 import './about.scss';
 import React from 'react';
 import { 
@@ -11,13 +10,12 @@ import {
     faReact,
   } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap-trial'
   
 
 const About = () => {
-  const [letterClass] = useState('text-animate')
+  
 
   const cube = useRef()
     
@@ -42,8 +40,7 @@ const About = () => {
       <div className='container about-page'>
           <div className='text-zone'>
               <h1>
-                  <AnimatedLetters letterClass={letterClass} strArray={['A','b','o','u','t']} 
-                  idx={10} />
+                  About
               </h1>
 
               <p> I have obtained great knowledge and skills in software Development,

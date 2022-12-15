@@ -1,7 +1,5 @@
-import React, { useState } from "react";
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap-trial'
-import AnimatedLetters from "../Animation/animation";
 import "./project.scss";
 import Logo from '../../../src/assets/images/Logo.png';
 import Web_App from '../../../src/assets/images/Pharmacy Web.jpeg';
@@ -10,7 +8,6 @@ import { Link } from 'react-router-dom';
 
 
 const Portfolio = () => { 
-    const [letterClass] = useState('text-animate');
 
     const box1 = useRef()
     const box2 = useRef()
@@ -61,10 +58,7 @@ const Portfolio = () => {
         <>
             <div className="page-header">
                 <h1 > 
-                    <AnimatedLetters
-                        letterClass={letterClass}
-                        strArray={"Projects".split("")}
-                        idx={15}/>
+                    Projects
                  </h1>
                   <p>
                     These are my personal projects and academic projects. You can view the source code on my Github.

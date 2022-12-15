@@ -1,12 +1,11 @@
-import {  useState } from 'react'
+
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
-import AnimatedLetters from '../Animation/animation'
 import './contact.scss'
 
 
 const Contact = () => {
-  const [letterClass] = useState('text-animate')
+  
   const form = useRef()
 
   const sendEmail = (e) => {
@@ -33,11 +32,7 @@ const Contact = () => {
       <div className="container contact-page">
         <div className="text-zone">
           <h1>
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={['C', 'o', 'n', 't', 'a', 'c', 't']}
-              idx={1}
-            />
+            Contact
           </h1>
           <p>
             Thank you for your visite.
