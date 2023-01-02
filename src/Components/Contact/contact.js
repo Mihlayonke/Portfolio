@@ -32,7 +32,7 @@ const Contact = () => {
       <div className="container contact-page">
         <div className="text-zone">
           <h1>
-            Contact
+            Contacts
           </h1>
           <p>
             Thank you for your visite.

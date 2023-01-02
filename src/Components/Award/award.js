@@ -1,13 +1,13 @@
 
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap-trial'
-import "./achievement.scss";
+import "./award.scss";
 import Certificate1 from '../../../src/assets/images/JSCertificate.jpeg';
 import Certificate2 from '../../../src/assets/images/Degree.jpg';
 import { Link } from 'react-router-dom';
 
 
-const Achievement = () => { 
+const Award = () => { 
     
 
     const box1 = useRef()
@@ -59,7 +59,7 @@ const Achievement = () => {
         <>
             <div className="page-header">
                 <h1 > 
-                    Achievements
+                    Awards
                  </h1>
                   <p>
                     These are my certificates from University and online BootCamps. You can view the source of the certification.
@@ -137,4 +137,4 @@ const Achievement = () => {
 }
 
 
-export default Achievement;
+export default Award;

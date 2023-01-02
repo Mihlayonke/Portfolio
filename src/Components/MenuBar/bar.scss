@@ -23,7 +23,6 @@
     
         a {
           font-size: 22px;
-          color: #ffffff;
           display: block;
           line-height: 51px;
           padding: 5px;
@@ -81,25 +80,19 @@
     
         a.contact-link {
           &::after {
-            content: 'CONTACT';
+            content: 'CONTACTS';
           }
         }
     
-        a.portfolio-link {
+        a.project-link {
           &::after {
-            content: 'PROJECT';
+            content: 'PROJECTS';
           }
         }
         
-        a.achievement-link {
+        a.award-link {
           &::after {
-            content: 'ACHIEVED';
-          }
-        }
-    
-        a.active {
-          svg {
-            color: #ffffff;
+            content: 'AWARDS';
           }
         }
       }
@@ -111,18 +104,13 @@
         list-style: none;
         text-align: center;
         margin: 0;
-        color: #ffffff;
-
-        
     
         li {
-          color: #ffffff;
           a {
             padding: 5px 0;
             display: block;
             font-size: 15px;
             line-height: 16px;
-            color: #ffffff;
           }
 
           svg{
@@ -147,15 +135,6 @@
           display: flex;
           height: 62px;
           z-index: 3;
-          
-
-        .logo {
-            display: block;
-    
-            img{
-                height: 62px;             
-            }
-        }
 
         ul{
             display: none;
