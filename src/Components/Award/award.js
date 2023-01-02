@@ -59,7 +59,7 @@ const Award = () => {
         <>
             <div className="page-header">
                 <h1 > 
-                    Awards
+                    My Awards
                  </h1>
                   <p>
                     These are my certificates from University and online BootCamps. You can view the source of the certification.

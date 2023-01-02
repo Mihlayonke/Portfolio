@@ -39,7 +39,7 @@ const About = () => {
     <>
        <div className="page-header">
           <h1 > 
-              About
+              About Me
           </h1>
         
         </div>

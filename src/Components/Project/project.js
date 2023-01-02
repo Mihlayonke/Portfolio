@@ -58,7 +58,7 @@ const Portfolio = () => {
         <>
             <div className="page-header">
                 <h1 > 
-                    Projects
+                    My Projects
                  </h1>
                   <p>
                     These are my personal projects and academic projects. You can view the source code on my Github.

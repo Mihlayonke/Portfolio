@@ -32,8 +32,8 @@ const Contact = () => {
 
       <div className="page-header">
         <h1 > 
-            Contacts
-          </h1>
+          Contact Me
+        </h1>
           
                 
       </div>
