@@ -37,11 +37,15 @@ const About = () => {
   
   return ( 
     <>
+       <div className="page-header">
+          <h1 > 
+              About
+          </h1>
+        
+        </div>
+
       <div className='container about-page'>
           <div className='text-zone'>
-              <h1>
-                  About
-              </h1>
 
               <p> I have obtained great knowledge and skills in software Development,
                   database management, and problem-solving during my undergraduate, practice and self-taught.

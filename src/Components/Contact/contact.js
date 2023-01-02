@@ -29,11 +29,18 @@ const Contact = () => {
   
   return (
     <>
-      <div className="container contact-page">
-        <div className="text-zone">
-          <h1>
+
+      <div className="page-header">
+        <h1 > 
             Contacts
           </h1>
+          
+                
+      </div>
+
+      <div className="container contact-page">
+        <div className="text-zone">
+
           <p>
             Thank you for your visite.
             <br/>

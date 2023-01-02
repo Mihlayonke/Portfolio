@@ -1,37 +1,3 @@
-.page-header{
-
-    animation: fadeInLeft 2.5s;
-    margin-top: 5%;
-
-    h1{
-        font-size: 52px;
-        font-family: "Helvetica Neue";
-        color: #fff;
-        font-weight: 400;
-        position: relative;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        align-items: center;
-        align-content: center;
-
-    }
-
-    p {
-        font-size: 18px;
-        color: #fff;
-        padding: 0px 30px 0px;
-        font-family: "Helvetica Neue";
-        font-weight: 300;
-        animation: pulse 1s;
-        &:nth-of-type(1) {
-          animation-delay: 2.1s;
-        }
-    }
-}
-
 .button1-zone{
     display: flex;
     flex-wrap: nowrap;

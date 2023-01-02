@@ -104,7 +104,7 @@
         max-width: auto;
         animation: pulse 1s;
         &:nth-of-type(1) {
-          animation-delay: 1.8s;
+          animation-delay: 2.1s;
         }
       }
   
@@ -128,7 +128,6 @@
 .info {
     position: relative;
     background: #000000e5;
-    top: 45px;
     width: 300px;
     height: 210px;
     padding: 30px;
