@@ -25,15 +25,15 @@ const Sidebar = () => {
                 <FontAwesomeIcon icon={faUser} color='#4d4d4e'> </FontAwesomeIcon>
             </NavLink>
 
-            <NavLink exact='true' activeclassname='active' className='award-link' to='/award' onClick={() => setShowNav(false)}>
+            <NavLink exact='true' activeclassname='active' className='award-link' to='/awards' onClick={() => setShowNav(false)}>
                 <FontAwesomeIcon icon={faTrophy} color='#4d4d4e'> </FontAwesomeIcon>
             </NavLink>
             
-            <NavLink exact ='true' activeclassname="active" className="project-link" to="/project" onClick={() => setShowNav(false)}>
+            <NavLink exact ='true' activeclassname="active" className="project-link" to="/projects" onClick={() => setShowNav(false)}>
                 <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
             </NavLink>
 
-            <NavLink exact='true' activeclassname='active' className='contact-link' to='/contact' onClick={() => setShowNav(false)}>
+            <NavLink exact='true' activeclassname='active' className='contact-link' to='/contacts' onClick={() => setShowNav(false)}>
                 <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e'> </FontAwesomeIcon>
             </NavLink>
             

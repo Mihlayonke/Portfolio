@@ -146,7 +146,7 @@ const Portfolio = () => {
 
             <div className='button1-zone'>
 
-              <Link to ="/contact" className = 'flat-button'> CONTACT ME </Link>
+              <Link to ="/contacts" className = 'flat-button'> CONTACT ME </Link>
 
             </div>
 

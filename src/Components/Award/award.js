@@ -124,7 +124,7 @@ const Award = () => {
 
             <div className='button1-zone'>
 
-              <Link to ="/project" className = 'flat-button'> MY PROJECTS </Link>
+              <Link to ="/projects" className = 'flat-button'> MY PROJECTS </Link>
 
             </div>
 
