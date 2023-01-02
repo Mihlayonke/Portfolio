@@ -132,12 +132,23 @@
     border-radius: 12px;
     cursor: pointer;
 
-  &:hover{
-    background-image: url('../../../src/assets/images/Mihla.jpg');
-    background-size: 360px;
-    color: #0a395100;
-    
-  }
+    .message{
+      color: yellow;
+      font-style: italic;
+      font-size: 13px;
+      text-align: center;
+    }
+
+    &:hover{
+      background-image: url('../../../src/assets/images/Mihla.jpg');
+      background-size: 360px;
+      color: #0a395100;
+
+      .message {
+        color: #0a395100;
+      }
+      
+    }
 
   span {
     font-size: 16px;
