@@ -108,7 +108,6 @@ const Contact = () => {
               <div className='message'>
                 Point here to see my photo.
               </div>
-
         </div> 
 
       </div>
