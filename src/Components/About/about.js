@@ -48,12 +48,12 @@ const About = () => {
           <div className='text-zone'>
 
               <p> I have obtained great knowledge and skills in software Development,
-                  database management, and problem-solving during my undergraduate, practice and self-taught.
+                  database management, and problem-solving during my undergraduate, practice, work-experience and self-taught.
               </p>
 
               <p>
                   I have a Bachelor's Degree in Computer Science and Information 
-                  Technology obtained at the University of Kwa-Zulu Natal.
+                  Technology obtained at the University of Kwa-Zulu Natal and other certificates awarded from online boot camps.
               </p>
 
               <p>
@@ -66,7 +66,7 @@ const About = () => {
               <p>
                   I have skills and experience with the following languages: Java, C#, Python, 
                   JavaScrip, TypeScrip, HTML5, CSS3, and SQL including frameworks and libraries such as 
-                  ASP.Net CORE & MVC, Angular2+, and React.
+                  ASP.Net CORE & MVC, Angular2+, and React.JS.
               </p>
                   
               <p>
