@@ -89,7 +89,7 @@ const Contact = () => {
         </div>
         <div className="info">
 
-          ▸Current Address:
+          ▸Physical Address:
           <br />
            -  Table View,
           <br />
@@ -106,7 +106,7 @@ const Contact = () => {
             <br />
             <br />
               <div className='message'>
-                Point here to see my photo.
+                Point here to view my photo.
               </div>
         </div> 
 
