@@ -13,7 +13,7 @@ const Home = () => {
     const arrayGreet = ['W', 'e','l','c','o','m','e','!',' ',''];
     const arrayName = ['I',"'",'m',' ','M', 'i', 'h', 'l', 'a', 'y', 'o', 'n', 'k', 'e', ' ', 'T', 'e', 'm', 'b', 'e', ','];
     const arrayJob = ['I',"'",'m',' ','a',' ','S', 'o', 'f', 't', 'w', 'a', 'r', 'e', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.' ];
-    const arrayMore = ['(B.Sc.)Degree Graduate ',' | ',' Software Engineer ', ' | ',' Full-Stack Developer',]
+    const arrayMore = ['(B.Sc.)Degree Graduate ',' | ',' Junior Developer ', ' | ',' Full-Stack Developer',]
 
     return (
         <>
