@@ -60,7 +60,7 @@ const About = () => {
               <p>
                   I know Computer Science fundamentals such as Computer Architecture, Data Structures, Algorithms, and 
                   Databases. I know methodologies such as System Development Life Cycle focusing on Agile Development. 
-                  I use Object-Oriented Programming paradigms and other important programming practices when I'm programming.
+                  I use Object-Oriented Programming paradigms and other important programming practices.
               </p>
 
               <p>
