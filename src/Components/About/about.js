@@ -47,33 +47,31 @@ const About = () => {
       <div className='container about-page'>
           <div className='text-zone'>
 
-              <p> I have obtained great knowledge and skills in software Development,
-                  database management, and problem-solving during my undergraduate, practice, work-experience and self-taught.
+              <p> 
+                  I have obtained great knowledge and skills in Software Development, database management, and 
+                  problem-solving during my undergraduate, practice, work experience, and self-taught.
               </p>
 
               <p>
-                  I have a Bachelor's Degree in Computer Science and Information 
-                  Technology obtained at the University of Kwa-Zulu Natal and other certificates awarded from online boot camps.
+                  I have a bachelor's degree in Computer Science and Information Technology obtained at the University 
+                  of Kwa-Zulu Natal and other certificates awarded from online boot camps.
               </p>
 
               <p>
-                  I know Computer Science fundamentals such as Computer Architecture, Data Structures, 
-                  Algorithms, and Databases. I know methodologies such as System Development 
-                  Life Cycle focusing on Agile Development. I use Object-Oriented Programming pagradigm 
-                  and other important programming practices when I'm programming.
+                  I know Computer Science fundamentals such as Computer Architecture, Data Structures, Algorithms, and 
+                  Databases. I know methodologies such as System Development Life Cycle focusing on Agile Development. 
+                  I use Object-Oriented Programming paradigms and other important programming practices when I'm programming.
               </p>
 
               <p>
-                  I have skills and experience with the following languages: Java, C#, Python, 
-                  JavaScrip, TypeScrip, HTML5, CSS3, and SQL including frameworks and libraries such as 
-                  ASP.Net CORE & MVC, Angular2+, and React.JS.
+                  I have skills and experience with the following languages: Java, C#, Python, JavaScript, Typescript, HTML5, 
+                  CSS3, and SQL including frameworks and libraries such as ASP. Net CORE & MVC, Angular2+, and React.js.
               </p>
                   
               <p>
-                  I have a knowledge and experience with using the following tools: Github,
-                  VS Code, Microsft SQL, Postgres SQL, Visual Studio, PowerShell, IntelliJ, PyCharm, Jira for 
-                  collaboration and Microsoft Power BI for data visualization and analysis. I have excelent skill of 
-                  computer literacy and Office Suite such as Word, PowerPoint and Excel.
+                  I have knowledge and experience with using the following tools: GitHub, VS Code, Microsoft SQL sever, Postgres SQL, 
+                  Visual Studio, PowerShell, Microsoft Visio,IntelliJ, PyCharm, Jira for collaboration, and Microsoft Power BI for data visualization and 
+                  analysis, but these are not limited tools I know. Also, I have excellent skills in computer literacy and Office Suite such as Word, PowerPoint, and Excel.
               </p>
 
               <div className='button-zone'>
