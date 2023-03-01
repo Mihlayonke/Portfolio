@@ -137,6 +137,11 @@
       font-style: italic;
       font-size: 14px;
       text-align: center;
+
+      .copyright{
+        text-align: right;
+        font-style: normal;
+      }
     }
 
     &:hover{
