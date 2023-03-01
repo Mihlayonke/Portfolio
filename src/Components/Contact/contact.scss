@@ -35,18 +35,18 @@
   input[type='text'],
   input[type='email'] {
     width: 100%;
-    border: 0;
     background: #115173;
     height: 50px;
     font-size: 16px;
     color: #fff;
     padding: 0 20px;
     box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
   }
 
   textarea {
     width: 100%;
-    border: 0;
     background: #115173;
     height: 50px;
     font-size: 16px;
@@ -54,6 +54,8 @@
     padding: 20px;
     box-sizing: border-box;
     min-height: 220px;
+    border: 1px solid black;
+    border-radius: 5px;
   }
 
   .flat-button{
@@ -63,6 +65,7 @@
     letter-spacing: 3px;
     font-family: sans-serif;
     border: 2px solid black;
+    border-radius: 8px;
     text-decoration: none;
     padding: 19px 18px;
     margin-top: 25px;
