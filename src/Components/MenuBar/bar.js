@@ -3,7 +3,7 @@ import { Link , NavLink} from 'react-router-dom';
 import Logo from '../../assets/images/Logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faEnvelopeCircleCheck, faHome, faUser, faTrophy, faSuitcase } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import React from 'react';
 import { useState } from 'react';
 
@@ -44,11 +44,18 @@ const Sidebar = () => {
                 <a target= "_blank" rel="noreferrer" href="https://www.linkedin.com/in/mihlayonke-tembe-280650151/">
                     <FontAwesomeIcon icon={faLinkedin } color='#4d4d4e'/> 
                 </a>
-            </li><li>
+            </li>
+            <li>
+                <a target= "_blank" rel="noreferrer" href="https://www.instagram.com/mihla_tembe/">
+                    <FontAwesomeIcon icon={faInstagram } color='#4d4d4e'/> 
+                </a>
+            </li>
+            <li>
                 <a target= "_blank" rel="noreferrer" href="https://github.com/Mihlayonke/">
                     <FontAwesomeIcon icon={faGithub } color='#4d4d4e'/> 
                 </a>
-            </li><li>
+            </li>
+            <li>
                 <a  href="mailto:mihlatembe@out.com">
                     <FontAwesomeIcon icon={faEnvelopeCircleCheck } color='#4d4d4e'/> 
                 </a>
