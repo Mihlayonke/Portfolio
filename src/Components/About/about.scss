@@ -55,9 +55,9 @@
   
 .cubespinner {
   animation-name: spincube;
-  animation-timing-function: ease;
+  animation-timing-function: ease-out;
   animation-iteration-count: infinite;
-  animation-duration: 10s;
+  animation-duration: 13s;
   transform-style: preserve-3d;
   transform-origin: 100px 100px 0;
   margin-left: calc(50% - 100px);
@@ -81,7 +81,7 @@
     border: 1px solid rgb(255, 255, 255);
 
     &:hover{
-      background: rgba(195, 195, 17, 0.85);
+      background: rgba(195, 195, 17, 0.75);
     }
   }
 
