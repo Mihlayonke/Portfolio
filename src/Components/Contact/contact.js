@@ -107,6 +107,8 @@ const Contact = () => {
             <br />
               <div className='message'>
                 Point here to view my photo.
+                <br/>
+                (2023)
               </div>
         </div> 
 
