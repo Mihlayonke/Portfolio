@@ -95,7 +95,7 @@ const Contact = () => {
           <br />
            -  Cape Town, 
            <br />
-           -  Western Cape, South Africa
+           -  Western Cape, South Africa 
            <br />
            -  7441
            <br />
