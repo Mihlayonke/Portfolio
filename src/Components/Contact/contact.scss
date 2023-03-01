@@ -64,8 +64,8 @@
     font-weight: 400;
     letter-spacing: 2px;
     font-family: sans-serif;
-    border: 2px solid black;
     border-radius: 8px;
+    border: 0px;
     text-decoration: none;
     padding: 19px 18px;
     margin-top: 25px;
@@ -131,7 +131,7 @@
     opacity: 0;
     animation: fadeInRight 1.15s 2s;
     animation-fill-mode: forwards;
-    border: 1px solid white;
+    border: 1px solid yellow;
     border-radius: 12px;
     cursor: pointer;
 
