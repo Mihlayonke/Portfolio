@@ -71,7 +71,7 @@ const About = () => {
               <p>
                   I have experience with these tools: GitHub, VS Code, Microsoft SQL sever, Postgres SQL, 
                   Visual Studio, PowerShell, Microsoft Visio,IntelliJ, PyCharm, Jira for collaboration, and Microsoft Power BI for data visualization and 
-                  analysis, but these are not limited tools I know. Also, I have excellent skills in computer literacy and office suite.
+                  analysis, but these are not limited tools I know. Also, I have skills in computer literacy and office suite.
               </p>
               
               <div className='button-zone'>
