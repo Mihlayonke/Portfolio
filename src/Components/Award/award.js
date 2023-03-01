@@ -90,7 +90,7 @@ const Award = () => {
                         </h4>
 
                         <a target= "_blank" rel="noreferrer" href='https://freecodecamp.org/certification/Mihlayonke/javascript-algorithms-and-data-structures'>
-                            <button className="btn"> Verify Certificate </button>
+                            <button className="btn"> Verify </button>
                         </a>
                     </div>
                 </div>
@@ -114,7 +114,7 @@ const Award = () => {
                         </h4>
 
                         <a target= "_blank" rel="noreferrer" href='https://www.linkedin.com/in/mihlayonke-tembe-280650151/'>
-                            <button className="btn"> Verify Certificate </button>
+                            <button className="btn"> Verify </button>
                         </a>
                         
                     </div>
