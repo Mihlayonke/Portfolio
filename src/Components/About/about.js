@@ -64,18 +64,18 @@ const About = () => {
               </p>
 
               <p>
-                  I have skills with languages: Java, C#, Python, JavaScript, Typescript, HTML5, 
+                  I have skills in these languages: Java, C#, Python, JavaScript, Typescript, HTML5, 
                   CSS3, and SQL including frameworks and libraries such as ASP. Net CORE & MVC, Angular2+, and React.js.
               </p>
                   
               <p>
-                  I have experience using the following tools: GitHub, VS Code, Microsoft SQL sever, Postgres SQL, 
+                  I have experience with these tools: GitHub, VS Code, Microsoft SQL sever, Postgres SQL, 
                   Visual Studio, PowerShell, Microsoft Visio,IntelliJ, PyCharm, Jira for collaboration, and Microsoft Power BI for data visualization and 
                   analysis, but these are not limited tools I know.
               </p>
 
               <p>
-                  Also, I have excellent skills in computer literacy and office suite such as Word, PowerPoint, and Excel.
+                  Also, I have excellent skills in computer literacy and office suite.
               </p>
 
               <div className='button-zone'>
