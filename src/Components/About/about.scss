@@ -55,7 +55,7 @@
   
 .cubespinner {
   animation-name: spincube;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease;
   animation-iteration-count: infinite;
   animation-duration: 10s;
   transform-style: preserve-3d;
@@ -68,19 +68,22 @@
     position: absolute;
     width: 200px;
     height: 200px;
-    border: 1px solid #ccc;
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(0, 0, 0, 0.9);
     text-align: center;
     font-size: 100px;
     font-family: 'Coolvetica';
+    border-radius: 10px;
     letter-spacing: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 30px 0px yellow;
-  }
+    box-shadow: 0 0 20px 3px yellow;
+    border: 1px solid rgb(255, 255, 255);
 
-  
+    &:hover{
+      background: rgba(195, 195, 17, 0.85);
+    }
+  }
 
   .face1 {
     transform: rotateY(0deg) translateZ(100px);
