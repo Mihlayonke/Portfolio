@@ -49,7 +49,7 @@ const About = () => {
 
               <p> 
                   I have obtained great knowledge and skills in Software Development, database management, and 
-                  problem-solving during my undergraduate, practice, work experience, and self-taught.
+                  problem-solving during my undergraduate, practice, work, and self-taught.
               </p>
 
               <p>
