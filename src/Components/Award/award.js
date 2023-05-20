@@ -113,7 +113,7 @@ const Award = () => {
                           Date: 31/11/2021
                         </h4>
 
-                        <a target= "_blank" rel="noreferrer" href='https://www.linkedin.com/in/mihlayonke-tembe-280650151/'>
+                        <a target= "_blank" rel="noreferrer" href='hhttps://www.linkedin.com/posts/mihlayonke-tembe-280650151_degree-activity-6914471183077781504-PBX8?utm_source=share&utm_medium=member_desktop/'>
                             <button className="btn"> Verify </button>
                         </a>
                         
