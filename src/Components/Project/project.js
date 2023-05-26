@@ -62,7 +62,8 @@ const Portfolio = () => {
                  </h1>
                   <p>
                     These are my personal projects and academic projects. You can view the source code on my Github.
-                    Point to project card to review more infor about the project.
+                    Point to project card to review more infor about the project. Note that these are not limited projects, 
+                    there are more to be uploaded here and you can find more on my Github profile.
                   </p>
                 
             </div>

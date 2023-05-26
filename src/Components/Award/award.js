@@ -108,6 +108,7 @@ const Award = () => {
                           <br/>
                             It was obtained on 2021 when I completed my Bachelor's Degree in Computer Science and Information Technology
                             at the University of Kwa-Zulu Natal Westville Campus under the discipline of Computer Science and Information Systems & Technology.
+                            Note that these are not limited awards, there are more to be uploaded here.
                           <br/>
                           <br/>
                           Date: 31/11/2021
