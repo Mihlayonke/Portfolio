@@ -65,7 +65,7 @@ const About = () => {
 
               <p>
                   I have skills in these languages: Java, C#, Python, JavaScript, Typescript, HTML5, 
-                  CSS3, and SQL including frameworks and libraries such as ASP. Net CORE & MVC, Angular2+, and React.js.
+                  CSS3, and SQL including frameworks and libraries such as .Net CORE/MVC, Angular2+, and React.js.
               </p>
                   
               <p>
