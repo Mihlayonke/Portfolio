@@ -63,7 +63,8 @@ const Award = () => {
                  </h1>
                   <p>
                     These are my certificates from University and online BootCamps. You can view the source of the certification.
-                    Point to Certificate card to review more information about the certification.
+                    Point to Certificate card to review more information about the certification. Note that these are not limited awards, 
+                    there are more to be uploaded here.
                   </p>
                 
             </div>
