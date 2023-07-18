@@ -2,7 +2,7 @@ import './bar.scss';
 import { Link , NavLink} from 'react-router-dom';
 import Logo from '../../assets/images/Logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faEnvelopeCircleCheck, faHome, faUser, faTrophy, faSuitcase } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faEnvelopeCircleCheck, faHome, faUser, faCertificate, faCode } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import React from 'react';
 import { useState } from 'react';
@@ -25,12 +25,12 @@ const Sidebar = () => {
                 <FontAwesomeIcon icon={faUser} color='#4d4d4e'> </FontAwesomeIcon>
             </NavLink>
 
-            <NavLink exact='true' activeclassname='active' className='award-link' to='/awards' onClick={() => setShowNav(false)}>
-                <FontAwesomeIcon icon={faTrophy} color='#4d4d4e'> </FontAwesomeIcon>
+            <NavLink exact='true' activeclassname='active' className='award-link' to='/certificate' onClick={() => setShowNav(false)}>
+                <FontAwesomeIcon icon={faCertificate} color='#4d4d4e'> </FontAwesomeIcon>
             </NavLink>
             
             <NavLink exact ='true' activeclassname="active" className="project-link" to="/projects" onClick={() => setShowNav(false)}>
-                <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+                <FontAwesomeIcon icon={faCode} color="#4d4d4e" />
             </NavLink>
 
             <NavLink exact='true' activeclassname='active' className='contact-link' to='/contacts' onClick={() => setShowNav(false)}>

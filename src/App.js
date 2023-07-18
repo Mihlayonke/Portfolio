@@ -5,7 +5,7 @@ import Contact from './Components/Contact/contact';
 import Layout from './Components/Layout/layout';
 import Error from './Components/Error/error';
 import Project from './Components/Project/project';
-import Award from './Components/Award/award';
+import Certificate from './Components/Certificate/certificate';
 import './App.scss'
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
             <Route path ='/about' element={<About />} />
             <Route path ="/contacts" element={<Contact />}/>
             <Route path ="/projects" element={<Project />} />
-            <Route path ="/awards" element={<Award />} />
+            <Route path ="/certificate" element={<Certificate />} />
             <Route path ='*' element={<Error />} />
           </Route>
       </Routes>
