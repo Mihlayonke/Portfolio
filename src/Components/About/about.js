@@ -49,12 +49,9 @@ const About = () => {
 
               <p> 
                   I have obtained great knowledge and skills in Software Development, database management, and 
-                  problem-solving during my undergraduate, practice, work, and self-taught.
-              </p>
-
-              <p>
-                  I have a bachelor's degree in Computer Science and Information Technology obtained at the University 
-                  of Kwa-Zulu Natal and other certificates awarded from online boot camps.
+                  problem-solving during my undergraduate, practice, work, and self-taught. I have a bachelor's 
+                  degree in Computer Science and Information Technology obtained at the University of Kwa-Zulu 
+                  Natal and other certificates awarded from online boot camps.
               </p>
 
               <p>
@@ -72,6 +69,12 @@ const About = () => {
                   I have experience with these tools: GitHub, VS Code, Microsoft SQL sever, Postgres SQL, 
                   Visual Studio, PowerShell, Microsoft Visio,IntelliJ, PyCharm, Jira for collaboration, and Microsoft Power BI for data visualization and 
                   analysis, but these are not limited tools I know. Also, I have skills in computer literacy and office suite.
+              </p>
+
+              <p>
+                  My favourit and recommended book is called Systems Analysis and Design in a Changing World 7th Edition, 
+                  it is written by John W. Satzinger; Robert B. Jackson; Stephen D. Burd. This book guid and provide me with immense 
+                  knowledge about Systems Development.
               </p>
               
               <div className='button-zone'>
