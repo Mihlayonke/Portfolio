@@ -106,7 +106,7 @@ const Portfolio = () => {
                           This is a website for a varsity pharmacy. 
                           <br/>
                           <br/>
-                          It was an academic groung project where I was a groung leader. It was built using 
+                          It was an academic groung project where I was a group leader of five members. It was built using 
                           ASP.Net Core framework with C#, JavaScrip, HTML5, and CSS3. It was programmed on Microsoft Visual Studio 2019.
                           <br/>
                           <br/>
@@ -131,7 +131,7 @@ const Portfolio = () => {
                           This is a desktop app for varsity a pharmacy. 
                           <br/>
                           <br/>
-                          It was an academic groung project where I was a groung leader. It was built using 
+                          It was an academic groung project where I was a group leader of five members. It was built using 
                           ASP.Net MVC framework with C#, and SQL. It was programmed on Microsoft Visual Studio 2019 and SQL Server.
                           <br/>
                           <br/>
