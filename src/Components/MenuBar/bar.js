@@ -25,7 +25,7 @@ const Sidebar = () => {
                 <FontAwesomeIcon icon={faUser} color='#4d4d4e'> </FontAwesomeIcon>
             </NavLink>
 
-            <NavLink exact='true' activeclassname='active' className='award-link' to='/certificate' onClick={() => setShowNav(false)}>
+            <NavLink exact='true' activeclassname='active' className='certificate-link' to='/certificates' onClick={() => setShowNav(false)}>
                 <FontAwesomeIcon icon={faCertificate} color='#4d4d4e'> </FontAwesomeIcon>
             </NavLink>
             
