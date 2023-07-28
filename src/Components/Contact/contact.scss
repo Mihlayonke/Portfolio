@@ -35,27 +35,37 @@
   input[type='text'],
   input[type='email'] {
     width: 100%;
-    background: #115173;
+    background: #888888;
     height: 50px;
     font-size: 16px;
-    color: #fff;
+    color: #000;
     padding: 0 20px;
     box-sizing: border-box;
     border: 1px solid yellow;
     border-radius: 8px;
+
+    &:hover{
+      background-color: #bbbbbb;
+      
+    }
   }
 
   textarea {
     width: 100%;
-    background: #115173;
+    background: #888888;
     height: 50px;
     font-size: 16px;
-    color: #fff; 
+    color: #000; 
     padding: 20px;
     box-sizing: border-box;
     min-height: 220px;
     border: 1px solid rgba(255, 255, 0);
     border-radius: 8px;
+
+    &:hover{
+      background-color: #bbbbbb;
+      
+    }
   }
 
   .flat-button{
