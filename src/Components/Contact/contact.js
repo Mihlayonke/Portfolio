@@ -100,9 +100,9 @@ const Contact = () => {
            -  7441
            <br />
             <br />
-            ▸E-mail: mihlatembe@outlook.com 
+            ▸Email: mihlatembe@outlook.com 
             <br />
-            ▸Phone: (+27) 72 178 7779 
+            ▸Call/WhatsApp: (+27) 72 178 7779 
             <br />
             <br />
               <div className='message'>
