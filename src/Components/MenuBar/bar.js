@@ -3,7 +3,7 @@ import { Link , NavLink} from 'react-router-dom';
 import Logo from '../../assets/images/Logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faEnvelopeCircleCheck, faHome, faUser, faCertificate, faCode } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import React from 'react';
 import { useState } from 'react';
 
@@ -46,8 +46,8 @@ const Sidebar = () => {
                 </a>
             </li>
             <li>
-                <a target= "_blank" rel="noreferrer" href="https://www.instagram.com/mihla_tembe/">
-                    <FontAwesomeIcon icon={faInstagram } color='#4d4d4e'/> 
+                <a target= "_blank" rel="noreferrer" href="whatsapp://send?abid=0721787779&text=Hi Mihlayonke, I'm texting you from your portfolio website.">
+                    <FontAwesomeIcon icon={faWhatsapp } color='#4d4d4e'/> 
                 </a>
             </li>
             <li>
