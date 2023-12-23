@@ -103,8 +103,8 @@ const Certificate = () => {
                     alt="certificate" />
                     
                     <div className="content_">
-                        <p className="title_">Degree Statement</p>
-                        <h4 className="description_">This is my Bachelor's Degree Statement. 
+                        <p className="title_">Degree Certificate</p>
+                        <h4 className="description_">This is my Bachelor's Degree Certificate. 
                           <br/>
                           <br/>
                             It was obtained on 2021 when I completed my Bachelor's Degree in Computer Science and Information Technology
