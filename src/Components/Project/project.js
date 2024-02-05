@@ -4,6 +4,7 @@ import "./project.scss";
 import Logo from '../../../src/assets/images/Logo.png';
 import Web_App from '../../../src/assets/images/Pharmacy Web.jpeg';
 import Desktop from '../../../src/assets/images/Desktop_App.jpeg';
+import Holychurch from '../../../src/assets/images/holychurch.jpeg';
 import { Link } from 'react-router-dom';
 
 
@@ -12,7 +13,7 @@ const Portfolio = () => {
     const box1 = useRef()
     const box2 = useRef()
     const box3 = useRef()
-    
+    const box4 = useRef()
 
     useEffect(() => {
     
@@ -50,6 +51,18 @@ const Portfolio = () => {
             delay: 2,
           }
           
+        ) 
+        
+        gsap.fromTo(
+          box4.current,
+          {
+            opacity: 0,
+          },
+          {
+            opacity: 1,
+            delay: 2,
+          }
+          
         )
       }, [])
 
@@ -72,33 +85,34 @@ const Portfolio = () => {
                 
                 <div className="image-box" ref={box1}>
                     <img 
-                    src={Logo}
+                    src={Desktop}
                     className="portfolio-image"
-                    alt="portfolio" />
+                    alt="Pharmacy desktop app thumbnail" />
                     
                     <div className="content">
-                        <p className="title">My Website</p>
-                        <h4 className="description">This is my website that you are currently vising. 
+                        <p className="title">Pharmacy Desktop App</p>
+                        <h4 className="description">
+                          This is a desktop app for varsity a pharmacy. 
                           <br/>
                           <br/>
-                          It was built by my-self using React library, JavaScrip, SCSS, HTML, and then I deployed 
-                          it by hosting on Firebase. It was programmed on Microsft Visual Code 2022 and using Node.js runtime environment.
+                          It was an academic groung project where I was a group leader of five members. It was built using 
+                          ASP.Net MVC framework with C#, and SQL. It was programmed on Microsoft Visual Studio 2019 and SQL Server.
                           <br/>
                           <br/>
-                          Date: 09/2022 - 12/2022
+                          Date: 02/2021 - 05/2021
                         </h4>
 
-                        <a target= "_blank" rel="noreferrer" href='https://github.com/Mihlayonke/Portfolio'>
+                       <a target= "_blank" rel="noreferrer" href="https://github.com/Mihlayonke/Varsity_Pharmacy_Windows_Form/">
                             <button className="btn"> View Code </button>
                         </a>
                     </div>
                 </div>
-                
+
                 <div className="image-box" ref={box2}>
                     <img 
                     src={Web_App}
                     className="portfolio-image"
-                    alt="portfolio" />
+                    alt="varsity pharmacy website thumbnail" />
                     
                     <div className="content">
                         <p className="title">Pharmacy Web App</p>
@@ -118,28 +132,53 @@ const Portfolio = () => {
                         </a>
                     </div>
                 </div>
-                
+
                 <div className="image-box" ref={box3}>
                     <img 
-                    src={Desktop}
+                    src={Logo}
+                    className="image"
+                    alt="portfolio website thumbnail" />
+                    
+                    <div className="content">
+                        <p className="title">My Website</p>
+                        <h4 className="description">This is my website that you are currently vising. 
+                          <br/>
+                          <br/>
+                          It was built by my-self using React library, JavaScrip, SCSS, HTML, and then I deployed 
+                          it by hosting on Firebase. It was programmed on Microsft Visual Code 2022 and using Node.js runtime environment.
+                          <br/>
+                          <br/>
+                          Date: 09/2022 - 12/2022
+                        </h4>
+
+                        <a target= "_blank" rel="noreferrer" href='https://github.com/Mihlayonke/Portfolio'>
+                            <button className="btn"> View Code </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div className="image-box" ref={box4}>
+                    <img 
+                    src={Holychurch}
                     className="portfolio-image"
                     alt="portfolio" />
                     
                     <div className="content">
-                        <p className="title">Pharmacy Desktop App</p>
+                        <p className="title">Holy Church Website</p>
                         <h4 className="description">
-                          This is a desktop app for varsity a pharmacy. 
+                            This is a website for a Church. 
                           <br/>
                           <br/>
-                          It was an academic groung project where I was a group leader of five members. It was built using 
-                          ASP.Net MVC framework with C#, and SQL. It was programmed on Microsoft Visual Studio 2019 and SQL Server.
+                            This is a website for a client that ownes a church and wants to have a website where people can learn more about the church, 
+                            donate, contact and see the locations on the branches of the church. This website is being developed on VS Code using Typescript, 
+                            JavaScrip, HTML5, SASS, and CSS3. 
                           <br/>
                           <br/>
-                          Date: 02/2021 - 05/2021
+                            Date: 07/2023 - present
                         </h4>
 
-                       <a target= "_blank" rel="noreferrer" href="https://github.com/Mihlayonke/Varsity_Pharmacy_Windows_Form/">
-                            <button className="btn"> View Code </button>
+                       <a target= "_blank" rel="noreferrer" href="https://holychurch-website.web.app/">
+                            <button className="btn"> View Website </button>
                         </a>
                     </div>
                 </div>
