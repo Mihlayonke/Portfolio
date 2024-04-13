@@ -21,7 +21,8 @@ body {
     font: 300 calc(11px/1.4) 'Signika Negative',sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: #333; 
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 5%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 95%);
     overflow: hidden;
     display: block;
 }
